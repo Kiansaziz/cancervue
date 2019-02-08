@@ -1,0 +1,813 @@
+@font-face {
+    font-family: "HelveticaOr";
+    src: url('../../bootstrap/fonts/helvetica/Helvetica.ttf');
+    }
+
+@font-face {
+        font-family: "HelveticaBold";
+        src: url('../../bootstrap/fonts/helvetica/Helvetica-Bold.ttf');
+        }
+
+
+
+
+
+
+/* Barisan 1 */
+.hcs-detail{
+    background-image: url("../../images/hcs-detail/Hereditary.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+   
+    width: 100%;
+    height: auto;
+
+    padding : 105px 0px;
+    padding-top: 200px;
+
+    margin-top : -140px;
+
+    /* margin-top: -140px; */
+    /* Center and scale the image nicely */
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .hcs-detail{
+        padding: 75px 0px;
+        padding-top : 160px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hcs-detail{
+       padding : 50px 0px;
+       padding-top : 120px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .hcs-detail{
+        background: url('../../images/hcs/image-background-ijo-481.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+    
+        width: 100%;
+        height: auto;
+
+        padding : 25px 20px;
+        padding-bottom: 35px;
+
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .hcs-detail{
+        background-image : url("../../images/hcs/image-background-ijo-320.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+    
+        width: 100%;
+        height: auto;
+
+        padding : 10px 10px;
+        padding-bottom:25px;
+    }
+    .detail-copy{
+        padding : 350px 20px;
+        padding-top: 350px !important;
+    }
+} 
+
+
+.detail-posisi{
+   
+    opacity: 0.9;
+    transition: padding 0.9s,;
+    -webkit-transition: padding 0.9s, ;
+    transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+}
+
+
+.header-detail{
+    color: white;
+    font-family: "HelveticaBold";
+    font-size: 30px;
+    line-height: 35px;
+    
+}
+
+
+.caption-detail{
+    color: white;
+    font-family: "HelveticaOr";
+    font-size : 18px;
+    text-align : justify;
+    line-height: 30px;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-detail{
+    font-size: 24px;
+    }
+    .caption-detail{
+        font-size: 18px;
+
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .header-detail{
+        font-size : 32px;
+    }
+    .cation-detail{
+        font-size : 18px;
+
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .header-detail{
+        font-size : 15px;
+    }
+    .caption-detail{
+        font-size : 13.5px;
+    }
+}
+
+
+/* Barisan 1 */
+
+
+/* Barisan 2 */
+
+.hcs-detail-2{
+    background-image: url("../../images/hcs-detail/8-tipe-kanker.png");
+
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    height: 300px;
+
+    margin-top: 60px;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .hcs-detail-2{
+        background-image: url("../../images/hcs-detail/8-tipe-kanker.png");
+    
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+        width: 100%;
+        height: auto;
+    
+        margin-top : 80px;
+        
+        padding : 15px 0px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hcs-detail-2{
+       
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .hcs-detail-2{
+        background-image: url("../../images/hcs-detail/8-tipe-kanker481px.png");
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+        width: 100%;
+        height: auto;
+    
+        margin-top : 80px;
+        
+        padding : 25px 0px;
+        padding-top : 420px;
+
+        text-align : center;
+
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .hcs-detail-2{
+        background-image: url("../../images/hcs-detail/8-tipe-kanker481px.png");
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+        width: 100%;
+        height: auto;
+    
+        margin-top : 80px;
+        
+        padding : 5px 0px;
+        padding-top : 195px;
+
+        text-align : center;
+    }
+} 
+
+a.kanker .kanker-2
+    {
+        display:none;
+        
+    }
+a.kanker:hover .kanker-1 {
+    display:none;
+    }
+a.kanker:hover .kanker-2 {
+    display:inline;
+    }
+
+
+
+.kanker-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:30px;
+}
+.kanker-2{
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    a.kanker .kanker-2{display:inline}
+    a.kanker .kanker-1{display:none}
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    a.kanker .kanker-2{
+        display:inline;
+        width: 240px;
+        position: relative;
+       
+
+    }
+    a.kanker .kanker-1{display:none}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    a.kanker .kanker-2{
+        display:inline;
+        width: 135px;
+
+    }
+    a.kanker .kanker-1{display:none}
+}
+
+/* Barisan 2 */
+
+
+
+/* Barisan 3 */
+.hcs-detail-3{
+    background-image: url("../../images/hcs-detail/hereditary-tengah.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: auto;
+
+    padding : 300px 0px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hcs-detail-3{
+        
+       padding : 150px 0px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .hcs-detail-3{
+        background-image:url("../../images/hcs-detail/BG-tengah481px.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+
+        margin-top: 80px;
+        padding : 50px 0px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .hcs-detail-3{
+        background-image : url("../../images/hcs-detail/BG-tengah320px.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+
+
+        margin-bottom: -40px;
+        padding : 50px 0px;
+    }
+} 
+
+
+
+
+
+.hcs-header-detail-3{
+    font-family: "HelveticaBold";
+    font-size: 30px;
+    color: #6d6d6d;
+    padding : 0px 15px;
+}
+
+.hcs-caption-detail-3{
+    font-family: "HelveticaOr";
+    font-size: 18px;
+    line-height: 30px;
+    color: #6d6d6d;
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .hcs-header-detail-3{
+        font-size: 15px;
+    }
+    .hcs-caption-detail-3{
+        font-size : 14px;
+    }
+} 
+/* Barisan 3 */
+
+/* Barisan 4 */
+.hcs-detail-4{
+    background-image : url("../../images/hcs-detail/cara.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: auto;
+
+    margin-top :40px;
+
+    padding : 80px 0px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hcs-detail-4{}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .hcs-detail-4{
+       padding :0px 0px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .hcs-detail-4{
+        background-image :url("../../images/hcs-detail/Bagaimana-cara-481px.jpg");;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    
+        width: 100%;
+        height: auto;
+    
+    
+        padding : 20px 0px;
+        padding-bottom : 140px;
+    }
+} 
+
+.hcs-detail-4-header{
+    font-family: "HelveticaBold";
+    font-size : 30px;
+    color: #6d6d6d;
+}
+
+.hcs-detail-4-caption{
+    font-family: "HelveticaOr";
+    font-size : 18px;
+    color: #6d6d6d;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hcs-detail-4-position{
+        padding: 40px 25px;
+        padding-right : 200px;
+    }
+    .hcs-detail-4-header{
+        font-size :28px;
+    }
+    .hcs-detail-4-caption{
+        font-size : 20px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .hcs-detail-4-position{
+        padding : 20px 25px;
+        padding-right : 190px;
+    }
+    .hcs-detail-4-header{
+        font-size : 24px;
+        color: white
+    }
+    .hcs-detail-4-caption{
+        font-size : 18px;
+        color: white;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .hcs-detail-4-position{
+     
+        padding : 0px 30px;
+        text-align: center;
+        color: white;
+        
+    }
+    .hcs-detail-4-header{
+        font-size : 15px;
+        color: white;
+       
+    }
+    .hcs-detail-4-caption{
+        font-size : 13.5px;
+        color: white;
+    }
+
+} 
+/* Barisan 4 */
+
+/* Barisan 5 */
+
+
+hr.onepixel-hcs-detail {
+    border-top: 1px solid #4b8c21;
+    border-bottom: 1px solid #4b8c21;
+    height: 0px;
+    margin-bottom: 0px;
+    margin: 90px 400px;
+  }
+
+.hcs-detail-5{
+    background-image: url("../../images/hcs-detail/image-bawah.png");
+    height: 1400px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin-bottom: -30px;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hcs-detail-5{
+        height: 950px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .hcs-detail-5{
+        
+        background-image: url("../../images/hcs-detail/BG-Kotak-tabel-hasil-768px.png");
+        height: 1250px;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .hcs-detail-5{
+        
+        background-image: url("..tabel-hasil-768px.png");
+       
+        margin-right : 30px;
+        margin-left : 30px;
+        margin-top: -110px;
+        margin-bottom : 40px;
+        
+        height: auto;
+        position: relative;
+
+        border: 2px solid #4b8c21;
+    
+        
+    }
+} 
+
+.hcs-detail-5-header-center{
+    background-color: #4b8c21;
+    margin-left: -20px;
+    margin-right : -15px;
+    margin-top : 30px;
+    margin-bottom: -5px;
+
+    
+    
+    font-family: "HelveticaBold";
+    font-size : 24px;
+    padding: 10px;
+    text-align : center;    
+    color: white;
+}
+
+.hcs-detail-5-header-left{
+    background-color : #b3b3b3;
+    margin-left : -20px;
+    
+    font-family: "HelveticaOr";
+    font-size : 24px;
+    padding : 10px;
+    text-align: center;
+    color: white;
+}
+
+.hcs-detail-5-header-right{
+    background-color : #79bb4e;
+    margin-right: -15px;
+    
+
+    font-family: "HelveticaOr";
+    font-size: 24px;
+    padding : 10px;
+    text-align : center;
+    color: white;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hcs-detail-5-header-center{
+        margin : 0px 0px;
+        margin-right: 0px;
+        margin-top: 15px;
+        font-size : 18px;
+
+    }
+    .hcs-detail-5-header-right{
+        margin: 10px 0px;
+        font-size : 18px;
+        
+       
+
+    }
+    .hcs-detail-5-header-left{
+        margin: 10px 0px;
+        font-size : 18px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .hcs-detail-5-header-center{
+        margin : 0px 10px;
+        margin-top: 25px;
+        font-size : 18px;
+
+    }
+    .hcs-detail-5-header-right{
+        margin: 10px 10px;
+        font-size : 18px;
+        margin-top : 120px;
+       
+       
+
+    }
+    .hcs-detail-5-header-left{
+        margin: 10px 10px;
+        margin-top : 15px;
+        font-size : 18px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    .hcs-detail-5-header-center{
+        margin : 0px 0px;
+        margin-top : 15px;
+        font-size : 15px;
+        padding :5px;
+
+    }
+    .hcs-detail-5-header-right{
+        margin : 0px 0px;
+        font-size : 15px;
+        padding :5px;
+        margin-bottom : 10px;
+       
+       
+
+    }
+    .hcs-detail-5-header-left{
+        margin : 10px 0px;
+        font-size : 15px;
+        padding :5px;
+    }
+} 
+
+.hcs-detail-5-caption-left{
+    color: #6d6d6d;
+    font-family: "HelveticaOr";
+    font-size: 18px;
+    text-align: justify;
+    
+    padding-right : 20px;
+    
+}
+
+.hcs-detail-5-caption-right{
+    color: #6d6d6d;
+    font-family: "HelveticaOr";
+    font-size: 18px;
+    text-align: justify;
+
+    padding-left: 20px;
+    padding-right: 5px;
+
+   
+}
+
+.hcs-detail-5-caption-left-2{
+    color: #6d6d6d;
+    font-family: "HelveticaOr";
+    font-size: 18px;
+    text-align: justify;
+    
+    margin-top: 250px;
+    padding-right : 20px;
+}
+
+.hcs-detail-5-caption-header-left-3{
+    color: #438b13;
+    font-family: "HelveticaBold";
+    font-size: 24px;
+    font-weight: bold;
+    text-align: justify;  
+}
+
+.hcs-detail-5-caption-header-caption-left-3{
+    color: #6d6d6d;
+    font-family: "HelveticaOr";
+    font-size: 18px;
+    text-align: justify;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+.hcs-detail-5-caption-left{  
+    font-size: 14px;
+    padding-left : 20px;
+    margin-bottom: -100px;
+}
+
+.hcs-detail-5-caption-right{
+    font-size: 14px;
+    padding-right : 20px;
+}
+
+.hcs-detail-5-caption-left-2{
+    font-size: 14px;
+    
+
+}
+
+.hcs-detail-5-caption-header-left-3{
+    font-size: 18px;
+    
+  
+}
+
+.hcs-detail-5-caption-header-caption-left-3{
+    font-size: 14px;
+   
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .hcs-detail-5-caption-left{  
+        font-size: 16px;
+        padding-left : 15px;
+        margin-bottom: -80px;
+    }
+    
+    .hcs-detail-5-caption-right{
+        font-size: 16px;
+        padding-right : 25px;
+    }
+    
+    .hcs-detail-5-caption-left-2{
+        font-size: 16px;
+        padding : 0px 50px;
+        
+    
+    }
+    
+    .hcs-detail-5-caption-header-left-3{
+        font-size: 20px;
+        padding : 0px 50px;
+        
+      
+    }
+    
+    .hcs-detail-5-caption-header-caption-left-3{
+        font-size: 16px;
+        padding : 0px 50px;
+       
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #page-hasil-tentang{
+        margin-top: 150px;
+    }
+   
+
+    .hcs-detail-5-caption-left{  
+        font-size: 13.5px;
+        margin-right : -17px;
+        margin-bottom :30px;
+
+       
+    }
+    
+    .hcs-detail-5-caption-right{
+        font-size: 13.5px;
+       padding : 0px;
+        margin-bottom : 30px;
+       
+        
+    }
+    
+    .hcs-detail-5-caption-left-2{
+        font-size: 13.5px;
+     padding : 0px;
+     
+       margin :0px;
+       margin-bottom :20px;
+    
+    }
+    
+    .hcs-detail-5-caption-header-left-3{
+        font-size: 13.5px;
+        padding: 0px;
+        padding-left : 15px;
+        
+        margin :0px;
+        margin-bottom :10px;
+        
+      
+    }
+    
+    .hcs-detail-5-caption-header-caption-left-3{
+        font-size: 13.5px;
+        margin-bottom : 30px;
+        padding : 0px;
+        padding-left : 15px;  
+         
+       
+       
+    }
+} 
+
+/* Barisan 5 */
+
+/* .header-hcs-2{
+    color:white;
+    font-family: "HelveticaBold";
+    margin-top: 0px;
+    padding-top: 15px;
+    font-size: 29px;
+    -webkit-transition: color 0.3s, background-color 0.5s, padding 0.9s, opacity: 5s;
+    transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+} */
+
+
+
+
+
+
+* 
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 
+
+*/

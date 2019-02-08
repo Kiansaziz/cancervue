@@ -1,0 +1,262 @@
+.navbar-brand {
+  height: auto;
+  padding: 27px 15px;
+  -webkit-transition: padding 0.3s;
+          transition: padding 0.3s;
+}
+.navbar-brand img {
+  height: 58px;
+  -webkit-transition: height 0.3s;
+          transition: height 0.3s;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  .navbar-brand img {
+    height: 58px;
+    -webkit-transition: height 0.3s;
+            transition: height 0.3s;
+ }
+}
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .navbar-brand img {
+    height: 58px;
+    -webkit-transition: height 0.3s;
+            transition: height 0.3s;
+          }
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar-brand img {
+    height: 48px;
+    -webkit-transition: height 0.3s;
+            transition: height 0.3s;
+          }
+}
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .navbar-brand img {
+    height: 48px;
+    -webkit-transition: height 0.3s;
+            transition: height 0.3s;
+          }
+}
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .navbar-brand img {
+    height: 48px;
+    -webkit-transition: height 0.3s;
+            transition: height 0.3s;
+          }
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar-brand img {
+    height: 40px;
+    -webkit-transition: height 0.3s;
+            transition: height 0.3s;
+          }
+}
+
+
+
+
+.navbar-default {
+  background-color: transparent;
+  border-width: 0;
+  margin-bottom: 0 !important;
+  height: 102px;
+  margin-top: 25px;
+  -webkit-transition: background-color 0.3s, height 0.3s;
+          transition: background-color 0.3s, height 0.3s;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+.navbar-default {
+  margin-top: 0px;
+}
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar-default {
+    margin-top: 0px;
+  }
+}
+
+
+@font-face {
+        font-family: "Gotham Medium";
+        src: url('assets/bootstrap/fonts/GothamMedium.TTF');
+        }
+
+.navbar-nav > li > a {
+  font-family: "Gotham Medium";
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-left: 50px;
+  padding-right: 20px;
+  padding-top: 45px;
+  color: #6d6d6d;
+  -webkit-transition: color 0.3s, background-color 0.3s, padding 0.3s;
+          transition: color 0.3s, background-color 0.3s, padding 0.3s;
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .navbar-nav > li > a {
+    font-family: "Gotham Medium";
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 45px;
+    color: #6d6d6d;
+    -webkit-transition: color 0.3s, background-color 0.3s, padding 0.3s;
+            transition: color 0.3s, background-color 0.3s, padding 0.3s;
+  }
+
+  .navbar-gue{
+    background-color:#ffffff;
+  }
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar-nav > li > a {
+    font-family: "Gotham Medium";
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 15px;
+    color: #6d6d6d;
+    -webkit-transition: color 0.3s, background-color 0.3s, padding 0.3s;
+            transition: color 0.3s, background-color 0.3s, padding 0.3s;
+  }
+  .navbar-gue{
+    background-color:#ffffff;
+  }
+}
+
+.text-color{
+  color:#6d6d6d;
+}
+
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:active {
+  color: #4ecdc4;
+  outline-width: 0;
+}
+.navbar-nav > li.active > a,
+.navbar-nav > li.active a:hover,
+.navbar-nav > li.active a:focus,
+.navbar-nav > li.active a:active {
+  color: #4ecdc4;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #6d6d6d;
+}
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li.active a:hover,
+.navbar-default .navbar-nav > li.active a:focus,
+.navbar-default .navbar-nav > li.active a:active {
+  color: #6d6d6d;
+  background-color: #6d6d6d;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffd14e ;
+}
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 28px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+
+.dropdown-menu {
+  position: absolute;
+  font-family: "Gotham Medium";
+  font-weight: 600;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 15px;
+  margin-left: 50px;
+  list-style: none;
+  color: #6d6d6d;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.navbar-default .navbar-nav .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .dropdown-menu > li > a:focus {
+  color: #ffd14e ;
+  background-color: transparent;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+  
+}
+
+
+
+
+
+
+/* background */
+body {
+background: url(../images/header_image.png) no-repeat fixed;
+   -webkit-background-size: 100% 100%;
+   -moz-background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+   background-size: 100% 100%;
+}

@@ -1,0 +1,135 @@
+
+@font-face {
+    font-family: "HelveticaOr";
+    src: url('../../bootstrap/fonts/helvetica/Helvetica.ttf');
+    }
+
+@font-face {
+        font-family: "HelveticaBold";
+        src: url('../../bootstrap/fonts/helvetica/Helvetica-Bold.ttf');
+        }
+@font-face{
+    font-family: "AARDC";
+    src: url('../../bootstrap/fonts/AARDC___.TTF');
+}
+
+
+
+
+.bg-blog{
+    margin-top: 100px;
+}
+@media (min-width: 991px) and (max-width: 1186px) {
+    .bg-blog{
+
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .bg-blog{
+        
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .bg-blog{
+        padding :0px 25px;
+        
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .bg-blog{
+        padding :0px 15px;
+        
+}
+} 
+
+.header-awal-blog{
+    font-family: "HelveticaBold";
+    font-size: 30px;
+    color: #6d6d6d;
+    letter-spacing: 1px;
+}
+.caption-awal-blog{
+    font-family: "HelveticaOr";
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 35px; 
+    color: #6d6d6d;
+    letter-spacing: 1px;
+}
+
+.caption-blog{
+    font-family: "HelveticaOr";
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 1px;
+    color: #6d6d6d;
+}
+.caption-blog-referensi{
+    font-family: "HelveticaOr";
+    font-size: 14px;
+    text-align: justify;
+    color: #6d6d6d;
+}
+.blog-right{
+    background-image : url("../../images/Cancervue-Blog.jpg");
+    background-size : contain;
+    background-position: top;
+    background-repeat: no-repeat ;
+    color: #6d6d6d;
+    width: 100%;
+    height: 500px;
+    overflow: scroll;
+    margin-top: 60px;
+}
+
+
+
+
+@media (min-width: 991px) and (max-width: 1186px) {
+}
+@media (min-width: 768px) and (max-width: 990px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .header-awal-blog{
+        font-family: "HelveticaBold";
+        font-size: 24px;
+        color: #6d6d6d;
+        letter-spacing: 1px;
+    }
+    .caption-awal-blog{
+        font-family: "HelveticaOr";
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 35px; 
+        color: #6d6d6d;
+        letter-spacing: 1px;
+    }
+    
+    .caption-blog{
+        font-family: "HelveticaOr";
+        font-size: 14px;
+        text-align: justify;
+        letter-spacing: 1px;
+        color: #6d6d6d;
+    }
+    .caption-blog-referensi{
+        font-family: "HelveticaOr";
+        font-size: 12px;
+        text-align: justify;
+        color: #6d6d6d;
+    }
+    .blog-right{
+        background-image : url("../../images/Cancervue-Blog.jpg");
+        background-size : contain;
+        background-position: top;
+        background-repeat: no-repeat ;
+        color: #6d6d6d;
+        width: 100%;
+        height: 500px;
+        overflow: scroll;
+        margin-top: 60px;
+    }
+    
+} 

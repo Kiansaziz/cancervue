@@ -1,0 +1,197 @@
+@font-face{
+    font-family: "HelveticaOr";
+    src: url('../bootstrap/fonts/helvetica/Helvetica.ttf');
+  }
+  
+  @font-face{
+    font-family: "HelveticaBold";
+    src: url('../bootstrap/fonts/helvetica/Helvetica-Bold.ttf');
+  }
+
+
+.tentang{
+        /* The image used */
+       
+        background-color:#ffd14e;
+        width: 80%;
+        border-radius: 25px;
+        border: 1px solid #fdc529;
+        box-shadow: 10px;
+      
+        padding : 20px 30px;
+
+
+        margin-top: 55px;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        text-align: center;
+       
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+        /* Needed to position the navbar */
+        position: relative;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .tentang{
+        
+        background-color:#ffd14e;
+        height: 100%;
+        border-radius: 25px;
+        border: 1px solid #fdc529;
+        box-shadow: 10px;
+        margin-top: 55px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .tentang{
+       
+        background-color:#ffd14e;
+        height: 100%;
+        border-radius: 25px;
+        border: 1px solid #fdc529;
+        box-shadow: 10px;
+        margin-top: 55px;
+        margin-bottom: -120px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .tentang{
+        
+        background-color:#ffd14e;
+        height: 100%;
+        border-radius: 25px;
+        border: 1px solid #fdc529;
+        box-shadow: 10px;
+        margin-top: 55px;
+        padding : 10px 10px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .tentang{
+       
+        background-color:#ffd14e;
+        height: 100%;
+        border-radius: 25px;
+        border: 1px solid #fdc529;
+        box-shadow: 10px;
+        margin-top: 55px;
+        padding : 10px 10px;
+    }
+} 
+
+
+@font-face {
+    font-family: "GothamRounded-Medium";
+    src: url('../bootstrap/fonts/GothamRounded-Medium.otf');
+    }
+.tentang-judul{
+    font-family: "HelveticaOr"; 
+    font-size:22px;
+    
+    color: black;
+    text-align: center;
+    
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .tentang-judul{
+        font-size: 21px;
+      
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .tentang-judul{
+        font-size: 20px;
+       
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .tentang-judul{
+        font-size: 19px;
+       
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .tentang-judul{
+        font-size: 17px;
+      
+        padding: 0px 10px;
+        
+    }
+} 
+
+@font-face {
+    font-family: "Gotham-Light";
+    src: url('../bootstrap/fonts/Gotham-Light.otf');
+    }
+.tentang-text{
+    font-family: "HelveticaOr";
+    font-size:18px;
+    color: black;
+    text-align: center;
+    margin-top: 25px;
+    opacity: 0.8;
+    
+
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .tentang-text{
+        font-size:20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .tentang-text{
+        font-size:19px;
+       
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .tentang-text{
+        font-size:17px;
+        text-align: justify;
+        padding: 0px 25px;
+        padding-bottom:10px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .tentang-text{
+        font-size:15px;
+        text-align: justify;
+        padding : 10px 20px;
+        
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 
+
+*/

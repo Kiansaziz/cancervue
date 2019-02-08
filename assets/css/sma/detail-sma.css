@@ -1,0 +1,761 @@
+@font-face {
+    font-family: "HelveticaOr";
+    src: url('../../bootstrap/fonts/helvetica/Helvetica.ttf');
+    }
+
+@font-face {
+        font-family: "HelveticaBold";
+        src: url('../../bootstrap/fonts/helvetica/Helvetica-Bold.ttf');
+        }
+
+
+@media (min-width: 991px) and (max-width: 1186px) {
+    .position-button-sma-1{
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .position-button-sma-1{
+    text-align: center;
+    font-size: 18px
+}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .position-button-sma-1{
+        font-size: 16px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .position-button-sma-1{
+        font-size:   14px;
+    }
+} 
+
+
+/* section 2 */
+.sma-detail-2{
+    padding: 20px 200px;
+    margin-top : 60px;
+}
+.sma-detail-header-2{
+    font-family: "HelveticaOr";
+    font-size : 62px;
+    text-align: center;
+    color: #c281bd;
+}
+.sma-detail-header-2-miring{
+    font-family: "AARDC";
+    color: #82c6da;
+}
+
+.sma-detail-caption-2{
+    font-family: "HelveticaOr";
+    font-size : 18px;
+    text-align: center;
+    line-height: 40px;
+    padding : 0px 30px;
+    color: #6d6d6d;
+}
+
+.onepixcel-sma{
+    border-top: 1px solid #6d6d6d;
+    border-bottom:1px solid #6d6d6d;
+    margin: 0px 250px;
+    margin-top: 80px;
+    
+}
+
+@media (min-width: 991px) and (max-width: 1186px) {
+    .sma-detail-2{
+        margin-top: 50px;
+        padding: 20px 150px; 
+    }
+    .sma-detail-header-2{
+        font-size:62px;
+
+    }
+    .sma-detail-header-2-miring{
+
+    }   
+    .sma-detail-caption-2{
+        font-size:20px
+    }
+    .onepixcel-sma{
+
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .sma-detail-2{
+        margin-top: 50px;
+        padding: 20px 80px; 
+    }
+    .sma-detail-header-2{
+        font-size:52px;
+
+    }
+    .sma-detail-header-2-miring{
+
+    }   
+    .sma-detail-caption-2{
+        font-size:18px
+    }
+    .onepixcel-sma{
+        margin: 0px 140px;
+        margin-top : 40px;
+
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .sma-detail-2{
+        margin-top: 20px;
+        padding: 20px 80px; 
+    }
+    .sma-detail-header-2{
+        font-size:47px;
+
+    }
+    .sma-detail-header-2-miring{
+
+    }   
+    .sma-detail-caption-2{
+        font-size:16px;
+        line-height: 35px;
+    }
+    .onepixcel-sma{
+        margin: 0px 140px;
+        margin-top : 40px;
+
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .sma-detail-2{
+        margin-top: 10px;
+        padding: 20px 30px; 
+    }
+    .sma-detail-header-2{
+        font-size:42px;
+
+    }
+    .sma-detail-header-2-miring{
+
+    }   
+    .sma-detail-caption-2{
+        font-size:14px;
+        line-height: 35px;
+    }
+    .onepixcel-sma{
+        margin: 0px 120px;
+        margin-top : 40px;
+
+    }
+} 
+/* end section 2 */
+
+
+/* section 3 */
+
+.bg-sma-detail-3{
+    margin-top : 60px;
+    background: linear-gradient(to left, #dcaff1 0%, #c281bd 80%);
+    padding : 85px 0px;
+    color: white;
+
+}
+
+.sma-detail-3-header-position{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.sma-detail-3-header{
+    font-family: "HelveticaBold";
+    font-size: 30px;
+    letter-spacing: 1px;
+   
+    
+    padding: 10px 0px;
+    border-radius: 100px;
+    
+
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sma-detail-3-caption{
+    font-family: "HelveticaOr";
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.img-sma-detail-3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top : 80px;
+}
+
+@media (min-width: 991px) and (max-width: 1186px) {
+    .sma-detail-3-header-position{
+        margin: 40px 0px;
+        margin-bottom: 25px;
+    }
+    .sma-detail-3-header{
+        font-size : 18px;
+
+    }
+    .sma-detail-3-caption{
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .sma-detail-3-header-position{
+        margin: 30px 0px;
+        margin-bottom: 20px;
+    }
+    .sma-detail-3-header{
+        font-size : 19px;
+
+    }
+    .sma-detail-3-caption{
+        font-size: 18px;
+    }
+    .img-sma-detail-3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top : 20px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .bg-sma-detail-3{
+        padding : 0px 20px;
+    }
+    
+    .sma-detail-3-header-position{
+        margin: 30px 0px;
+        margin-bottom: 20px;
+        
+       
+    }
+    .sma-detail-3-header{
+        font-size : 17px;
+
+    }
+    .sma-detail-3-caption{
+        font-size: 16px;
+    }
+    .img-sma-detail-3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top : 20px;
+        width: 70%;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .bg-sma-detail-3{
+        padding : 20px 20px;
+        margin-bottom: -80px;
+
+    }
+    .sma-detail-3-header-position{
+        margin: 20px 0px;
+        margin-bottom: -10px;
+    }
+    .sma-detail-3-header{
+        font-size : 16px;
+
+    }
+    .sma-detail-3-caption{
+        font-size: 14px;
+    }
+    .img-sma-detail-3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top : 10px;
+    }
+} 
+
+
+/* end section 3 */
+
+
+/* section 4 */
+
+.bg-sma-detail-4{
+    margin-top:150px;
+    margin-bottom: 150px;
+}
+
+.sma-detail-header-4{
+    text-align: justify;
+
+    font-family: "HelveticaBold";
+    color: #c281bd;
+    font-size: 30px;
+}
+.sma-detail-caption-4{
+    font-family: "HelveticaOr";
+    font-size: 18px;
+    color: #6d6d6d;
+    letter-spacing: 1px;
+    text-align: justify;
+
+}
+.onepixcel-sma-4{
+    border-top: 1px solid #c281bd;
+    border-bottom:1px solid #c281bd;
+    margin : 0px 220px;
+
+}
+
+.sma-detail-image-4{
+    background-image: url("../../images/sma/DETAIL/MOBILE/ctdna.png");
+    background-size : 100% 100%;
+    background-repeat: no-repeat;
+    padding : 70px 80px;
+ 
+
+    
+    margin-top: 20px;
+}
+.sma-detail-image-4-text{
+    font-family: "HelveticaOr";
+    font-size: 12px;
+    text-align: justify;
+    font-weight: 500;
+    margin-top : 10px;
+    
+}
+@media (min-width: 991px) and (max-width: 1186px) {
+    .sma-detail-header-4{
+        margin-top : 50px;
+        font-size: 30px;
+    }
+    .onepixcel-sma-4{
+        margin: 0px 200px;
+    }
+    .sma-detail-image-4{
+        background-image: url("../../images/sma/DETAIL/MOBILE/ctdna.png");
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+
+        width: 100%;
+        height: 200px;
+
+   
+        margin-top: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .sma-detail-header-4{
+        margin-top: 40px;
+        font-size : 28px;
+    }
+    .onepixcel-sma-4{
+        margin: 0px 150px;
+    }
+    .sma-detail-image-4{
+        background-image: url("../../images/sma/DETAIL/MOBILE/ctdna.png");
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+
+        width: 100%;
+        height: 200px;
+
+       
+        margin-top: 20px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .sma-detail-header-4{
+        margin-top: 40px;
+        font-size : 26px;
+        padding : 0px 20px;
+    }
+    .onepixcel-sma-4{
+        margin: 0px 100px;
+    }
+    .sma-detail-image-4{
+        background-image: url("../../images/sma/DETAIL/MOBILE/ctdna.png");
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+
+        width: 95%;
+        height: 300px;
+
+       margin-top : -50px;
+       margin-bottom: 0px;
+
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+
+
+        
+    }
+    .sma-detail-image-4-text{
+        margin-top : -130px;
+        padding: 0px 20px;
+    }
+    .sma-detail-caption-4{
+        padding : 0px 20px;
+        margin-bottom: -55px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .sma-detail-header-4{
+        margin-top: 20px;
+        font-size : 24px;
+        padding : 0px 20px;
+    }
+    .onepixcel-sma-4{
+        margin: 0px 80px;
+    }
+    .sma-detail-image-4{
+        background-image: url("../../images/sma/DETAIL/MOBILE/ctdna.png");
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+
+        width: 95%;
+        height: 300px;
+
+       margin-top : -10px;
+       margin-bottom: 0px;
+
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+
+
+        
+    }
+    .sma-detail-image-4-text{
+        margin-top : -210px;
+        padding: 0px 20px;
+        position: top;
+    }
+    .sma-detail-caption-4{
+        padding : 0px 20px;
+    }
+    .bg-sma-detail-4{
+        margin-bottom: 0;
+    }
+} 
+/* end section 4 */
+
+/* section 5 */
+.bg-sm-detail-5{
+    background-image: url("../../images/sma/DETAIL/Image-BG-pemeriksaan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: auto;
+
+    margin-top:80px;
+    padding : 120px 0px;
+}
+
+.sma-detial-header-5{
+    font-family: "HelveticaBold";
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #6d6d6d;
+}
+
+.sma-detail-caption-5{
+    font-family: "HelveticaOr";
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: #6d6d6d;
+}
+@media (min-width: 991px) and (max-width: 1186px) {
+    .bg-sm-detail-5{
+        padding : 80px 0px;
+    }
+    .sma-detial-header-5{
+        font-size : 18px;
+    }
+    .sma-detail-caption-5{
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .bg-sm-detail-5{
+        padding : 60px 0px;
+    }
+    .sma-detial-header-5{
+        font-size : 20px;
+    }
+    .sma-detail-caption-5{
+        font-size: 18px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .bg-sm-detail-5{
+        background-image:url("../../images/sma/DETAIL/MOBILE/image-BG-pemeriksaan-mobile.jpg");
+        background-size : cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+
+        margin-top: 60px;
+        padding : 40px 20px;
+    }
+    .sma-detial-header-5{
+        font-size : 18px;
+    }
+    .sma-detail-caption-5{
+        font-size : 16px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .bg-sm-detail-5{
+        background-image:url("../../images/sma/DETAIL/MOBILE/image-BG-pemeriksaan-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position : center;
+        
+        width: 100%;
+        height: auto;
+
+        padding : 60px 20px; 
+        margin-top: 50px;
+    }
+    .sma-detial-header-5{
+        font-size: 16px;
+    }
+    .sma-detail-caption-5{
+        font-size: 14px;
+    }
+} 
+/* end section 5 */
+
+/* section 6 */
+.bg-sm-detail-6{
+    background-image: url("../../images/sma/DETAIL/Image-bg-deteksi-cancer-ungu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    padding : 160px 0px;
+}
+
+.sma-detail-header-6{
+    font-family: "HelveticaBold";
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+}
+
+.sma-detail-caption-6{
+    font-family: "HelveticaOr";
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+
+}
+@media (min-width: 991px) and (max-width: 1186px) {
+    .bg-sm-detail-6{
+        padding : 130px 0px;
+    }
+    .sma-detail-header-6{
+        font-family: 18px;
+    }
+    .sma-detail-caption-6{
+        font-family: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .bg-sm-detail-6{
+        padding : 100px 0px;
+    }
+    .sma-detail-header-6{
+        font-size : 20px;
+    }
+    .sma-detail-caption-6{
+        font-size : 18px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .bg-sm-detail-6{
+        padding : 60px 20px;
+    }
+    .sma-detail-header-6{
+        font-size : 18px;
+    }
+    .sma-detail-caption-6{
+        font-size : 16px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .bg-sm-detail-6{
+        background-image: url("../../images/sma/DETAIL/MOBILE/image-bg-deteksi-cancer-ungu.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        width: 100%;
+        height: auto;
+        
+        padding : 70px 20px;
+    }
+    .sma-detail-header-6{
+        font-size : 16px;
+    }
+    .sma-detail-caption-6{
+        font-size : 14px;
+    }
+} 
+/* end section 6 */
+
+
+/* section 7 */
+.bg-sm-detail-7{
+    background-image: url("../../images/sma/DETAIL/Image-bg-memantau-efektifitas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: auto;
+
+    padding: 130px 0px;
+}
+
+.sma-detail-header-7{
+    font-family: "HelveticaBold";
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    color: #6d6d6d;
+}
+.sma-detail-caption-7{
+    font-family: "HelveticaOr";
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #6d6d6d;
+
+}
+
+@media (min-width: 991px) and (max-width: 1186px) {
+    .bg-sm-detail-7{
+       
+        padding : 100px 0px;
+    }
+    .sma-detail-header-7{   
+        font-size : 18px;
+    }
+    .sma-detail-caption-7{
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .bg-sm-detail-7{
+        background-image: url('../../images/sma/DETAIL/MOBILE/image-BG-pemeriksaan-mobile.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        width: 100%;
+        height: auto;
+
+        padding : 40px 0px;
+    }
+
+    .sma-detail-header-7{
+        font-size: 20px;
+    }
+    .sma-detail-caption-7{
+        font-size: 18px;
+    }
+    
+    .img-sma-7{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top : 30px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .bg-sm-detail-7{
+        background-image: url("../../images/sma/DETAIL/MOBILE/image-BG-pemeriksaan-mobile.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        width: 100%;
+        height: auto;
+
+        padding : 40px 20px;
+    }
+    .sma-detail-header-7{
+        font-size: 18px;
+    }
+    .sma-detail-caption-7{
+        font-size: 16px;
+        text-align: justify;
+    }
+    .img-sma-7{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .bg-sm-detail-7{
+        background-image: url("../../images/sma/DETAIL/MOBILE/image-BG-pemeriksaan-mobile.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        width: 100%;
+        height: auto;
+
+        padding : 30px 20px;
+    }
+    .sma-detail-header-7{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .sma-detail-caption-7{
+        font-size: 14px;
+        text-align: justify;
+    }
+    .img-sma-7{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        width: 80%;
+    }
+} 
+/* end section 7 */
+
+
+
+@media (min-width: 991px) and (max-width: 1186px) {
+}
+@media (min-width: 768px) and (max-width: 990px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 

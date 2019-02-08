@@ -1,0 +1,157 @@
+.alamat-map{
+    width: 80%;
+    height: 400px;
+    margin-left: -13px;
+    
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .alamat-map{
+        width: 100%;
+        height: 300px;
+        
+        
+    }   
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .alamat-map{
+        width: 100%;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 
+
+
+#alamat-bg{
+    background-color: #b3b3b3;
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+    margin-left: 0px;
+  }
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .alamat-bg{
+        width: 210%;
+        height: 300px;
+    }   
+}
+
+
+.alamat-image{
+    margin-top: 50px;
+    margin-left: -10px;
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .alamat-image{
+        margin-top: 20px;
+        margin-left: 113px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 
+
+
+
+
+  @font-face {
+    font-family: "GothamBold";
+    src: url('../bootstrap/fonts/GothamBold.ttf');
+    }
+  .alamat-heading{
+      font-size: 19px;
+      font-family: "GothamBold";
+      font-weight: 200;
+      color: black;
+  }
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .alamat-heading{
+        font-size: 18px;
+        margin-left: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 
+  @font-face {
+    font-family: "GothamRounded-Medium";
+    src: url('../bootstrap/fonts/GothamRounded-Medium.otf');
+    }
+    
+    .alamat-text{
+        font-size: 17px;
+        font-family: "GothamRounded-Medium";
+        font-weight: 200;
+        color: black;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+        .alamat-text{
+            font-size: 16px;
+            margin-left: 10px
+        }
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+    }
+    @media (min-width: 481px) and (max-width: 767px) {
+    }
+    @media (min-width: 320px) and (max-width: 480px) {
+    } 
+
+
+a.pic .image2{display:none}
+a.pic:hover .image1 {display:none}
+a.pic:hover .image2 {display:inline}
+
+.image1{
+    width: 8%;
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .fb{
+        margin-left: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 
+
+
+.image2{
+    width: 8%;
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .image2{
+       
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 
+
+
+/* 
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 
+
+*/

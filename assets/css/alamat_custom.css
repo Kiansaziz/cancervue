@@ -1,0 +1,232 @@
+/* Map */
+@font-face {
+    font-family: "HelveticaOr";
+    src: url('../../bootstrap/fonts/helvetica/Helvetica.ttf');
+    }
+
+@font-face {
+        font-family: "HelveticaBold";
+        src: url('../../bootstrap/fonts/helvetica/Helvetica-Bold.ttf');
+        }
+
+
+.bg-map{
+    margin-top: 30px;
+    width: 100%;
+    margin-left:-15px;
+    margin-right: 0px;
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .bg-map{
+        margin-left:-15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 
+
+.bg-map-atur{
+    width: 100%;
+    height: 400px;
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .bg-map-atur{
+        width: 104%;
+        height: 350px;
+        margin-top: 150px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .bg-map-atur{
+        width: 106.8%;
+        height: 350px;
+    }   
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .bg-map-atur{
+        width: 110.5%;
+        height: 350px;
+    }   
+} 
+
+/* Map */
+
+/* Judul dan Text ALamat */
+.bg-alamat{
+    background-color: #b3b3b3;
+    margin-top: 30px;
+    width: 109.35%;
+    
+    margin-left:-45px;
+    margin-right: 0px;
+    height: 400px;
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .bg-alamat{
+        margin-left: -44px;
+        width: 112.2%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .bg-alamat{
+        
+        width:  108.1%;
+        height: 350px;
+        margin-top:-4px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .bg-alamat{
+        width: 113.4%;
+        height: 350px;
+        margin-top: -5px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .bg-alamat{
+        width: 120.7%;
+        height: 350px;
+        margin-top: -5px;
+        padding-top: 20px;
+    }
+}
+    
+
+/* Judul dan Text ALamat */
+
+
+
+      
+
+  .alamat-image{
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .alamat-image{
+       width: 55%;
+    }
+}
+
+
+
+
+
+.alamat-heading{
+    font-size: 19px;
+    font-family: "HelveticaBold";
+    font-weight: 200;
+    color: white;
+    margin-left: 100px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .alamat-heading{
+        font-size: 15.5px;
+
+    }
+}
+
+
+
+
+
+
+
+
+.alamat-text{
+    font-size: 17px;
+    font-family: "HelveticaOr";
+    font-weight: 200;
+    color: white;
+    margin-left: 100px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .alamat-text{
+        font-size: 13px;
+    }
+}
+ 
+
+
+
+
+a.pic .image-2{display:none}
+a.pic:hover .image-1 {display:none}
+a.pic:hover .image-2 {display:inline}
+
+.fb{
+    width: 4%;
+}
+.ig{
+    width: 4%;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .fb{
+        width: 6%;
+    }
+    .ig{
+        width: 6%;
+    }
+    
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .fb{
+        width: 7%;
+    }
+    .ig{
+        width: 7%;
+    }
+} 
+
+.fb{
+    margin-left: 100px;
+}
+
+
+
+
+
+.bg-alamat-new{
+    background-color: #b3b3b3;
+    height: auto;
+
+}
+
+.bg-map-new{
+    width: 100%;
+    height: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 
+
+*/

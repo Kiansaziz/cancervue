@@ -1,0 +1,211 @@
+<head>
+   <meta name="theme-color" content="#ffd14e">
+   <title>Contact | Cancervue</title>
+</head>
+
+<section class="posisi-contact-all">
+
+<!-- contact.css -->
+
+<section class="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h1 class="contact-header">Company Profile</h1>
+				<p class="contact-caption">
+				Genetics Indonesia merupakan perusahaan bioteknologi yang berfokus pada layanan kesehatan berbasis genetika molekuler serta jasa Next Generation Sequencing. Kami juga menyediakan layanan Non-Invasif Prenatal Testing (NIPT), tes risiko kanker, dan tes farmakogenetika.
+				</p>
+				<p class="contact-caption">
+					Genetics Indonesia berkerja sama dengan Yourgene Bioscience Taiwan sebagai penyedia layanan FirstVue NIPT. Genetics Indonesia juga berkerja sama dengan Kailos Genetics, US sebagai penyedia layanan Hereditary Cancer Screening, untuk tes risiko kanker, dan farmakogenetika.
+				</p>
+				<p class="contact-caption">
+					Kunjungi kami di <a href="http://geneticsindonesia.com">http://geneticsindonesia.com</a> 
+				</p>
+				
+
+			</div>
+			<div class="col-md-6">
+				<img src="assets/images/profile.jpg" class="img-responsive profile-image" >
+			</div>
+		</div>
+	</div>	
+</section>
+
+<section class="contact-layanan">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 posisi-contact-1" >
+				<div class="row contact-caption-2-1">
+					<div class="col-md-12 widht-image">
+						<img src="assets/images/icon-NIPT.png" class="img-responsive">
+					</div>
+					<div class="col-md-12">
+						<h1 class="text-center header-contact-3">Non-Invasive Prenatal test (NIPT)</h1> <br>
+						<p class="caption-contact-3"> 
+								Analisa pada DNA yang didapatkan dari sampel darah ibu yang sedang mengandung, untuk mengidentifikasi kelainan kromosom aneuploidy dan microdeletion pada janin. Pengecekan dilakukan dengan metode Next Generation Sequencing (NGS). Kelainan kromosom tersebut dapat menyebabkan gangguan perkembangan fisik dan intelektual.
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-4 posisi-contact-2">
+					<div class="row contact-caption-2-2">
+						<div class="col-md-12 widht-image">
+							<img src="assets/images/icon-cancervue.png" class="img-responsive">
+						</div>
+						<div class="col-md-12">
+							<h1 class="text-center header-contact-3">Cancervue</h1> <br>
+							<p class="caption-contact-3"> 
+								Kanker merupakan salah satu penyakit yang bisa disebabkan oleh faktor keturunan. Beberapa mutasi genetik dapat menyebabkan seseorang memiliki risiko mengidap kanker lebih tinggi. Sebanyak 32 gen yang diasosikan dengan 6 tipe kanker yang berbeda, akan dianalisa dengan metode NGS. Tes ini sangat dianjurkan apabila ada riwayat kanker di dalam keluarga anda.
+							</p>
+						</div>
+					</div>
+				
+			</div>
+			<div class="col-md-4 posisi-contact-3">
+				
+				<div class="row contact-caption-2-3">
+					<div class="col-md-12 widht-image">
+						<img src="assets/images/icon-pgx.png" class="img-responsive">
+					</div>
+					<div class="col-md-12 ">
+						<h1 class="text-center header-contact-3">Farmakogenetika (PGX)</h1><br>
+						<p class="caption-contact-3"> 
+							Farmakogenetika merupakan pengujian DNA untuk mengetahui obat yang tepat dan dosis yang sesuai untuk tubuh anda. Respon obat dipengaruhi oleh gen-gen metabolisme anda. Tes ini digunakan sebagai rujukan oleh dokter dalam meresepkan obat anda sehingga proses penyembuhan anda lebih cepat.
+						</p>
+					</div>
+				</div>
+		
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section class="send-contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h1 class="send-contact-header">Informasi Kontak</h1>
+				<p class="send-contact-caption">Konsultasikan kesehatan kandungan Anda sekarang</p>
+				<p class="send-contact-captopn-2">
+					Hubungi kami untuk mendapatkan informasi lengkap tentang prosedur FirstVue, konsultasi gratis seputar kandungan, dan berbagai penawaran menarik lainnya.
+				</p>
+				<p class="send-contact-captopn-2">PT. Global Genetika Indonesia</p>
+				<p class="send-contact-captopn-2 caption-2-send">
+					DBS Tower Lt.11, Unit 11.03  <br>
+					Jl. Prof Dr. Satrio Kav 3-5  <br>
+					Jakarta Selatan 12940 <br>
+					Tlp: +62 812 8199 9388.<br>
+					E-mail: firstvuebygenetics@gmail.com
+				</p>
+			</div>
+		<div class="col-md-8">
+				<form name="userForm">
+					<h1 class="formulirPesan">Formulir Pesan</h1>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="form-group">
+									<input type="text" name="nama" ng-model="user.nama" class="form-control input-lg" placeholder="Nama" ng-required>
+							</div>
+						</div>
+						<div class="col-md-4">
+						
+						<div>
+							<div class="form-group">
+								<input type="email" name="email" class="form-control input-lg" ng-model="user.email" placeholder="E-mail">
+								<p ng-show="userForm.email.$invalid && !userForm.email.$pristine" style="color: red">Enter a valid email.</p>
+							</div>
+						</div>
+							
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<input type="text" name="telfon" ng-model="user.telfon" class="form-control input-lg" placeholder="No. Handphone">
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="form-group">
+								<input type="text" name="judul" ng-model="user.judul" class="form-control input-lg" placeholder="Judul">
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="form-group">
+								<textarea name="pesan" ng-model="pesan" placeholder="Pesan Anda" rows="6" class="form-control input-lg"></textarea>
+							</div>
+							<input  type="submit" class="btn btn-info btn-lg" value="Kirim">	
+						</div>
+					</div>
+				</form>
+			</div>	
+		</div>
+	</div>
+</section>
+
+<section class="logo-contact">
+	<div class="customer-logos">
+	  <div class="slide"><img src="assets/images/logo/cancervue.png"></div>
+	  <div class="slide"><img src="assets/images/logo/firstvue.png"></div>
+	  <div class="slide"><img src="assets/images/logo/Genetics.png"></div>
+	  <div class="slide"><img src="assets/images/logo/Illumina.png"></div>
+	  <div class="slide"><img src="assets/images/logo/Ion-Torrent.png"></div>
+	  <div class="slide"><img src="assets/images/logo/Kailos.png"></div>
+	  <div class="slide" id="pgs-pgx"><img src="assets/images/logo/PGS.png"></div>
+	  <div class="slide" id="pgs-pgx"><img src="assets/images/logo/PGX.png"></div>
+	</div>	
+</section>
+
+
+
+
+
+</section>
+
+
+
+<section>
+    
+        <div class="col-md-6">
+            <div class="bg-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15865.202932826536!2d106.8231404!3d-6.2240204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7b36fd8bd2a9e428!2sPT.+Global+Genetika+Indonesia+(Genetics+Indonesia)!5e0!3m2!1sid!2sid!4v1544605888681" 
+                 frameborder="0" style="border:0" class="bg-map-atur" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="bg-alamat">
+                <a><img ng-src="assets/images/{{cancervueBottom}}" class="alamat-image"></a>
+                <h1 class="alamat-heading">PT Global Genetika Indonesia</h1>
+                <p class="alamat-text">DBS Bank Tower Lt 11 <br>
+                    Jl Prof Dr Satrio Kav 3-5 <br>
+                    Jakarta Selatan 12940 <br>
+                    (021) 2988 8650 <br>
+                    WA 0812 8199 9388<br>
+                    Email <a href="" style="color: white">info@cancervue.co.id</a>
+                  </p>
+                    <p>
+                      <a class="pic" href="{{fb}}">
+                          <img class="image-1 fb" ng-src="assets/images/{{fbWhite}}"/>
+                          <img class="image-2 fb" ng-src="assets/images/{{fbColor}}"/>
+                      </a>
+                      <a class="pic" href="{{ig}}">
+                          <img class="image-1 ig" ng-src="assets/images/{{igWhite}}"/>
+                          <img class="image-2 ig" ng-src="assets/images/{{igColor}}"  />
+                      </a>
+                   </p>
+            </div>
+        </div>
+   
+</section>
+
+
+
+<script type="text/javascript">
+	$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+</script>
+
+  <script src="coba/slide-logo/slide.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>

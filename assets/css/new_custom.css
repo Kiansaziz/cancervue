@@ -1,0 +1,671 @@
+.header_image img {
+  height: 58px;
+  -webkit-transition: height 0.3s;
+          transition: height 0.3s;
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .header_image img {
+    height: 58px;
+    -webkit-transition: height 0.3s;
+            transition: height 0.3s;
+          }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header_image img {
+    height: 52px;
+    margin: 10px 220px;
+    -webkit-transition: height 0.3s;
+            transition: height 0.3s;
+          }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .header_image img {
+    height: 48px;
+    -webkit-transition: height 0.3s;
+            transition: height 0.3s;
+          }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .header_image img {
+    height: 48px;
+    -webkit-transition: height 0.3s;
+            transition: height 0.3s;
+          }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header_image img {
+    height: 40px;
+    -webkit-transition: height 0.3s;
+            transition: height 0.3s;
+          }
+}
+
+
+@font-face{
+  font-family: "HelveticaOr";
+  src: url('../bootstrap/fonts/helvetica/Helvetica.ttf');
+}
+
+@font-face{
+  font-family: "HelveticaBold";
+  src: url('../bootstrap/fonts/helvetica/Helvetica-Bold.ttf');
+}
+      
+
+
+.background-navbar{
+  background: transparent;
+  border: transparent;
+}
+
+
+.navbar-nav > li > a {
+  font-family: "HelveticaOr";
+  font-size: 18px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding-left: 50px;
+  padding-right: 20px;
+  padding-top: 35px;
+  color: #6d6d6d;
+  -webkit-transition: color 0.3s, background-color 0.3s, padding 0.3s;
+          transition: color 0.3s, background-color 0.3s, padding 0.3s;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .navbar-nav > li > a {
+    font-family: "HelveticaOr";
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-right: 14px;
+    margin-top: 29px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    color: #6d6d6d;
+    -webkit-transition: color 0.3s, background-color 0.3s, padding 0.3s;
+            transition: color 0.3s, background-color 0.3s, padding 0.3s;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar-nav > li > a {
+    font-family: "HelveticaOr";
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-right: 54px;
+    margin-top: 29px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    color: #6d6d6d;
+    -webkit-transition: color 0.3s, background-color 0.3s, padding 0.3s;
+            transition: color 0.3s, background-color 0.3s, padding 0.3s;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .navbar-nav > li > a {
+    font-family: "HelveticaOr";
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 15px;
+    color: #6d6d6d;
+    -webkit-transition: color 0.3s, background-color 0.3s, padding 0.3s;
+            transition: color 0.3s, background-color 0.3s, padding 0.3s;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar-nav > li > a {
+    font-family: "HelveticaOr";
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 15px;
+    color: #6d6d6d;
+    -webkit-transition: color 0.3s, background-color 0.3s, padding 0.3s;
+            transition: color 0.3s, background-color 0.3s, padding 0.3s;
+  }
+}
+
+.toggle-header{
+  background-color: transparent;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .toggle-header{
+    font-size: 10px;
+    background-color: white;
+
+
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .toggle-header{
+    background-color: white;
+  }
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:active {
+  color: #4ecdc4;
+  outline-width: 0;
+}
+.navbar-nav > li.active > a,
+.navbar-nav > li.active a:hover,
+.navbar-nav > li.active a:focus,
+.navbar-nav > li.active a:active {
+  color: #4ecdc4;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #6d6d6d;
+}
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li.active a:hover,
+.navbar-default .navbar-nav > li.active a:focus,
+.navbar-default .navbar-nav > li.active a:active {
+  color: #6d6d6d;
+  background-color: #6d6d6d;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffd14e ;
+}
+
+
+.bg-img {
+  /* The image used */
+  background-image: url("../images/header_image.png");
+
+ 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+ 
+  width: 100%;
+  height: auto;
+  padding : 20px 0px;
+  padding-bottom: 240px;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .bg-img {
+   /* The image used */
+   background-image: url("../images/header_image.png");
+
+ 
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+   /* Needed to position the navbar */
+  
+   width: 100%;
+   height: auto;
+   padding : 215px 0px;
+   padding-bottom:  190px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .bg-img {
+    /* The image used */
+    background-image: url("../images/header768x1024px.jpg");
+ 
+  
+ 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+   
+    width: 100%;
+    height: auto;
+    padding : 365px 0px;
+    padding-bottom: 650px;
+
+
+    margin-top : -200px;
+}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .bg-img {
+    /* The image used */
+    background-image: url("../images/header481x767px.jpg");
+ 
+  
+ 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+   
+    width: 100%;
+    height: auto;
+    padding : 205px 0px;
+    padding-bottom: 230px;
+
+
+  }
+  
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .bg-img {
+    /* The image used */
+    background-image: url("../images/header320x480px.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+   
+    width: 100%;
+    height: auto;
+    padding : 55px 10px;
+  
+  }
+}
+
+.header-bawah {
+  /* The image used */
+  background-image: url("../images/image_kuning.png");
+  height: 235px;
+  margin-top: -15px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .header-bawah {
+    margin-top: -15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header-bawah {
+    margin-top: -15px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .header-bawah {
+    /* The image used */
+    background-image: url("../images/image-kuning-mobile.png");
+    
+    height: 767px;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .header-bawah {
+    /* The image used */
+    background-image: url("../images/image-kuning-mobile.png");
+    height: 679px;
+    margin-top: -20px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+} 
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .menu-toggle {
+    padding: 0px 50px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .menu-toggle {
+    padding: 0px 50px;
+      font-size: 11px;
+  }
+}
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 8px 10px;
+  margin-top: 22px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+
+
+.word-header{
+  font-family: "HelveticaOr";
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-top: 260px;
+  padding-right: 150px;
+  color: #6d6d6d;
+  z-index: 1;
+  -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+          transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .word-header{
+    font-size: 32px;
+    
+    padding: 0px;
+    padding-right : 50px;
+   
+   
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .word-header{
+    font-size: 28px;
+    padding:0px 90px;
+    text-align: center;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .word-header{
+    font-size: 29px;
+    padding: 0px 30px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .word-header{
+    font-size: 24px;
+    width: 300px;
+    margin: 0px 0px;
+    padding: 120px 0px;
+    padding-left: 20px;
+  }
+} 
+
+
+.welcome{
+  /* font-family: "GothamRounded-Book"; */
+  font-family: "HelveticaOr" !important;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 35px;
+  padding : 0px 120px;
+  padding-top: 45px;
+  margin-bottom: 55px;
+  text-align: center;
+  color: #6d6d6d;
+  z-index: 1;
+  -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+          transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .welcome{
+    font-size: 25px;
+    padding: 20px;
+    text-align: justify; 
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .welcome{
+    font-size: 15px;
+    padding: 0px 20px;
+    margin-top: -10px;
+    line-height: 25px;
+    text-align: justify; 
+  }
+} 
+
+.text-header{
+  font-family: "GothamRounded-Book" !important;
+  font-size: 30px !important;
+}
+
+hr.onepixel {
+  border-top: 2px solid #ffd14e;
+  border-bottom: 2px solid #ffd14e;
+  height: 0px;
+  margin-bottom: 0px;
+}
+
+.judul{
+  font-family: "HelveticaOr";
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #9f790e;
+  z-index: 1;
+  -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+          transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .judul{
+    font-size: 27px;
+    text-align: center;
+}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .judul{
+    font-size: 26px;
+    text-align: center;
+}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .judul{
+    font-size: 20px;
+    text-align: center; 
+  }
+}
+
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+  border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+  float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+
+
+/* popup */
+.ukuran-popup{
+  width: 45%;
+  display: block;
+  margin-left: auto;
+  margin-right : auto;
+}
+
+.bg-popup{
+  background-image : url('../images/HARI_KANKER.jpg');
+  background-size : cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  height: auto;
+
+  
+  padding : 20px 20px;
+  padding-bottom: 520px;
+}
+
+.bg-popup-2{
+  background-color: #ffd14e;
+  background-size:cover;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+
+}
+
+
+.button-popup{
+  background-color: #8d6600;
+  color: white;
+  border: 3px solid #8d6600;
+  
+  border-radius : 100px;
+  font-family: "HelveticaOr";
+  font-size: 12px;
+  
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  /* animasi */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.button-popup:hover{
+  box-shadow : 0px 10px 20px rgba(9,10,10,0.4);
+  transform : translate(-4px);
+  color: white;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .ukuran-popup{
+    width: 55%;
+  }
+  .bg-popup{
+    padding-bottom: 640px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .ukuran-popup{
+    width: 100%;
+  }
+  .bg-popup{
+    padding-bottom: 790px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .ukuran-popup{
+    width: 85%;
+  }
+  .bg-popup{
+    padding-bottom: 650px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .ukuran-popup{
+    width: 95%;
+  }
+  .bg-popup{
+    padding-bottom: 450px;
+  }
+} 
+
+
+/* end popup */
+
+
+
+
+/* 
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 
+
+*/
+
+
+

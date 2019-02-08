@@ -1,0 +1,171 @@
+<head>
+    <title >Layanan SMA | Cancervue</title>
+    <meta name="theme-color" content="#a0559d">
+</head>
+
+<!-- section 1 -->
+<section class="bg-sma">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+    
+                </div>
+                <div class="col-md-6 position-sma" >
+                    <img class="img-responsive sma-logo" ng-src="assets/images/sma/{{sma}}" />
+                    <h1 ng-repeat="section in section1" class="sma-header">{{section.headerSection}}</h1>
+                    <ul ng-repeat="caption in captionSection" class="sma-caption">
+                        <li>{{caption.caption}}</li>
+                    </ul>
+                    <br>
+                   <div class="position-button-sma-1">
+                    <a class="btn button-sma1 btn-lg position-button-sma-1" ui-sref="layanan-sma" onclick="topFunction()">About SMA</a></button>
+                   </div>
+                </div>       
+            </div>
+        </div>
+</section>
+<!-- end section 1 -->
+
+<!-- section 2 -->
+<section class="bg-sma-detail-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 sma-detail-2" ng-repeat="section in sectionDetail2">
+                <h1 class="sma-detail-header-2">SMA <span class="sma-detail-header-2-miring">Liquid</span></h1>
+                <p class="sma-detail-caption-2">
+                    {{section.captionDetail2}}
+                </p>
+                <hr class="onepixcel-sma">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end section 2 -->
+
+<!-- section 3 -->
+<section class="bg-sma-detail-3">
+    <div class="container" ng-repeat="section in sectionDetail3">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <h1 class="sma-detail-3-header">{{section.headerDetail3}}</h1>
+                <p class="sma-detail-3-caption">{{section.captionDetail3}}</p>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <img class="img-responsive img-sma-detail-3" src="assets/images/sma/DETAIL/image-blood-stream.png">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end section 3 -->
+
+<!-- section 4 -->
+<section class="bg-sma-detail-4">
+    <div class="container">
+        <div class="row">
+           
+            <div class="col-md-6">
+                    <div class="sma-detail-image-4">
+                    </div>
+                    <p class="sma-detail-image-4-text">
+                        <i>
+                            Oellerich et al., Using circulating cell-free DNA to monitor personalized cancer therapy, 
+                            Crit Rev Clin Lab Sci. 2017 May;54(3):205-218. Glenn Francis e Sandra Stein. 
+                            Circulating Cell-Free Tumour DNA in the management of Cancer. Int. J. Mol. Sci.2015, 16, 
+                            14122-14142.
+                        </i> 
+                    </p>
+            </div>
+            <div class="col-md-6">
+                
+                <h1 class="sma-detail-header-4">DETEKSI DINI</h1>
+                <p class="sma-detail-caption-4">
+                    Hasil studi menunjukkan bahwa Liquid Bopsy Scan dapat mendeteksi sel kanker sampai 
+                    dengan 100 hari sebelum sel-sel tersebut dapat dideteksi oleh metode imaging.
+                </p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!-- end section 4 -->
+
+
+<!-- section 5 -->
+<section class="bg-sm-detail-5" ng-repeat="section in sectionDetail5">
+    <div class="container" >
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <h1 class="sma-detial-header-5">{{section.headerDetail5}}</h1>
+                <p class="sma-detail-caption-5">{{section.captionDetail51}}</p>
+                <p class="sma-detail-caption-5">{{section.captionDetail52}}</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end section 5 -->
+
+<!-- section 6 -->
+<section class="bg-sm-detail-6" ng-repeat="section in sectionDetail6">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="sma-detail-header-6">{{section.headerDetail6}}</h1>
+                <p class="sma-detail-caption-6">{{section.captionDetail6}}</p>
+            </div>  
+        </div>
+    </div>
+</section>
+<!-- end section 6 -->
+
+<!-- section 7 -->
+<section class="bg-sm-detail-7" ng-repeat="section in sectionDetail7">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <h1 class="sma-detail-header-7">{{section.headerDetail7}}</h1>
+                <p class="sma-detail-caption-7">{{section.captionDetail7}}</p>
+                <img class="img-responsive img-sma-7" src="assets/images/sma/DETAIL/statistik-radiotherapy.png">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end section 7 -->
+
+<!-- Alamat -->
+<section class="sma-6-alamat">    
+    <div class="col-md-6">
+        <div class="bg-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15865.202932826536!2d106.8231404!3d-6.2240204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7b36fd8bd2a9e428!2sPT.+Global+Genetika+Indonesia+(Genetics+Indonesia)!5e0!3m2!1sid!2sid!4v1544605888681" 
+            frameborder="0" style="border:0" class="bg-map-atur" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="bg-alamat">
+            <a><img ng-src="assets/images/{{cancervueBottom}}" class="alamat-image"></a>
+            <h1 class="alamat-heading">PT Global Genetika Indonesia</h1>
+            <p class="alamat-text">DBS Bank Tower Lt 11 <br>
+                Jl Prof Dr Satrio Kav 3-5 <br>
+                Jakarta Selatan 12940 <br>
+                (021) 2988 8650 <br>
+                WA 0812 8199 9388<br>
+                Email <a href="" style="color: white">info@cancervue.co.id</a>
+            </p>
+                <p>
+                <a class="pic" href="{{fb}}">
+                    <img class="image-1 fb" ng-src="assets/images/{{fbWhite}}"/>
+                    <img class="image-2 fb" ng-src="assets/images/{{fbColor}}"  />
+                </a>
+                <a class="pic" href="{{ig}}">
+                    <img class="image-1 ig" ng-src="assets/images/{{igWhite}}"/>
+                    <img class="image-2 ig" ng-src="assets/images/{{igColor}}"  />
+                </a>
+            </p>
+        </div>
+    </div>
+</section>

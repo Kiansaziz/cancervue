@@ -1,0 +1,70 @@
+
+
+
+
+
+<a class="menu" ng-init="waOne='assets/images/wa-colored-new-1.png'; waTwo='assets/images/wa-colored-new-2.png'" href="https://api.whatsapp.com/send?phone=6281281999388" data-toggle="tooltip" data-placement="left" title="Message Us">
+    <img class="image-wa-1 wa" ng-src="{{waOne}}"/>
+    <img class="image-wa-2 wa" ng-src="{{waTwo}}"  />
+</a>
+
+
+
+
+<!-- <button onclick="topFunction()" id="myBtn" title="Go to top" ng-init="myUp='assets/images/segitiga.png'">
+    <img class="up" ng-src="{{myUp}}"/>
+</button> -->
+
+
+<a href="#!" class="scroll_To_Top" id="myBtn" ng-init="arrowOn='assets/images/Arrow-on.png' ; arrowOff='assets/images/Arrow-off.png'" >
+    <img class="image-panah-1 wa" ng-src="{{arrowOff}}"/>
+    <img class="image-panah-2 wa" ng-src="{{arrowOn}}"  />
+</a>
+
+
+
+
+<script>
+    $(document).ready(function(){
+        
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) 
+            {
+                $('.scroll_To_Top').fadeIn();
+            } 
+            else 
+            {
+                $('.scroll_To_Top').fadeOut();
+            }
+        });
+        
+    
+        $('.scroll_To_Top').click(function(){
+            $('html, body').animate({scrollTop : 0},700);
+            return false;
+        });
+        
+    });
+</script>
+
+
+
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>

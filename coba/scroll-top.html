@@ -1,0 +1,67 @@
+
+<!doctype html>
+<html>
+<head>
+<title>jQuery Scroll To Top</title>
+
+<style>
+	.scroll_To_Top{
+		width:150px;
+		height:100px; 
+	        color: black;
+		text-decoration: none;
+		position:fixed;
+		padding:10px; 
+		text-align:center; 
+		background: white;
+		font-weight: bold;
+		top:100px;
+		right:50px;
+		display:none;
+	}
+		
+	.scroll_To_Top:hover{
+		text-decoration:none;
+		color:green;
+	}	  
+</style>
+
+<script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+
+<!-- <script>
+$(document).ready(function(){
+	
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) 
+		{
+			$('.scroll_To_Top').fadeIn();
+		} 
+		else 
+		{
+			$('.scroll_To_Top').fadeOut();
+		}
+	});
+	
+
+	$('.scroll_To_Top').click(function(){
+		$('html, body').animate({scrollTop : 0},700);
+		return false;
+	});
+	
+});
+</script> -->
+
+</head>
+	<body>
+		<div>
+            <h2 class="textHeader">jQuery Scroll To Top Demo</h2>
+           
+			 <!-- Your contents goes here. -->
+			 
+			<p>
+				<a href="#" class="scroll_To_Top">Scroll To Top <span><!-- Image goes here. --></span></a>
+			</p>
+		</div>
+	</body>
+
+</html>

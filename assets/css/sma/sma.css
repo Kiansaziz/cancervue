@@ -1,0 +1,762 @@
+
+
+
+@font-face {
+    font-family: "HelveticaOr";
+    src: url('../../bootstrap/fonts/helvetica/Helvetica.ttf');
+    }
+
+@font-face {
+        font-family: "HelveticaBold";
+        src: url('../../bootstrap/fonts/helvetica/Helvetica-Bold.ttf');
+        }
+
+/* Section 1 */
+.bg-sma{
+    background-image: url("../../images/sma/HEADER-IMAGE.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding : 177px 0px 177px 0px;
+    width: 100%;
+    height: auto;
+
+    
+}
+
+@media (min-width: 991px) and (max-width: 1186px) {
+    
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .bg-sma{
+        background-image: url("../../images/sma/tab/Image-header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+
+        padding : 140px 0px 460px 0px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .bg-sma{
+        background-image: url("../../images/sma/mobile/HEADER-IMAGE-MOBILE.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+
+        padding : 170px 20px 170px 20px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .bg-sma{
+        background-image: url("../../images/sma/mobile/HEADER-IMAGE-MOBILE.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+
+        padding : 140px 20px 140px 15px;
+    }
+} 
+
+.sma-logo{
+    display: block;
+    margin-right: auto;
+    width: 75%;
+}
+
+.sma-header{
+    font-family : "HelveticaOr";
+    font-size: "35px";
+    letter-spacing: 1px;
+    color: #a0559d;
+}
+
+.sma-caption{
+    font-family: "HelveticaOr";
+    font-size : 18px;
+    margin: 0px 0px;
+    letter-spacing: 1px;
+    color: #6d6d6d;
+}
+
+@media (min-width: 991px) and (max-width: 1186px) {
+    .sma-logo{
+
+    }
+    .sma-header{
+        font-size: 33px;
+
+    }
+    .sma-caption{
+        font-size: 23px;
+
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .sma-logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 44%;
+    }
+    .sma-header{
+        font-size : 30px;
+        text-align: center;
+    }
+    .sma-caption{
+        font-size: 18px;
+        text-align: center;
+        
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .sma-logo{
+     display: block;
+     
+     margin-right: auto;
+        width: 60%;
+            
+    }
+    .sma-header{
+        font-size : 28px;
+        text-align: left;
+        ;
+
+    }
+    .sma-caption{
+        font-size: 16px;
+        text-align: left;
+        
+    }
+    
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .sma-logo{
+        width: 80%;
+    }
+    .sma-header{
+        font-size : 26px;
+
+    }
+    .sma-caption{
+        font-size: 14px;
+        
+    }
+} 
+
+/* buat button */
+.button-sma1{
+    background-color: #7a2f77;
+    color: white !important;
+    border : 3px solid #7a2f77;
+    padding: 5px 25px;
+    border-radius: 100px;
+    font-family: "HelveticaOr";
+
+    /* animasi  */
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.button-sma1:hover {
+    border : 3px solid #7a2f77;
+    background-color: #7a2f77;
+    box-shadow: 0px 15px 20px rgba(9, 10, 10, 0.4);
+    transform: translateY(-7px);
+    color: white !important;
+}
+
+/* end section 1 */
+
+
+
+/* Section 2 */
+.bg-sma-2{
+    margin-top:60px;
+}
+.sma-header-2{
+    font-family: "HelveticaBold";
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #6d6d6d;
+}
+
+.sma-caption-2{
+    font-family: "HelveticaOr";
+    font-size: 18px;
+    text-align: justify;
+ 
+    color: #6d6d6d;
+}
+.sma-caption-bawah-2{
+    font-family: "HelveticaOr";
+    font-size : 14px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #6d6d6d;
+}
+
+.sma-2-image-position{
+    padding: 55px 0px 0px 25px;
+}
+.sma-2-image{
+   
+    width: 100%;
+    margin: 0;
+}
+
+@media (min-width: 991px) and (max-width: 1186px) {
+    .bg-sma-2{
+        margin-top: 60px;
+    }
+    .sma-header-2{
+        font-size: 30px;
+    }
+    .sma-caption-2{
+        font-size: 20px;
+    }
+    .sma-caption-bawah-2{
+        font-size: 20px
+    }
+    .sma-2-image-position{
+      
+    }
+    .sma-2-image{
+      
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .bg-sma-2{
+        margin-top: 40px;
+    }
+    .sma-header-2{
+        font-size: 28px;
+    }
+    .sma-caption-2{
+        font-size: 18px;
+    }
+    .sma-caption-bawah-2{
+        font-size: 18px
+    }
+    .sma-2-image-position{
+        padding: 0px;
+    }
+    .sma-2-image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .bg-sma-2{
+        margin-top: 30px;
+        padding: 0px 20px;
+    }
+    .sma-header-2{
+        font-size: 26px;
+    }
+    .sma-caption-2{
+        font-size: 16px;
+    }
+    .sma-caption-bawah-2{
+        font-size: 16px
+    }
+    .sma-2-image-position{
+        padding : 30px 0px 0px 0px;
+    }
+    .sma-2-image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .bg-sma-2{
+        margin-top: 20px;
+        padding: 0px 15px;
+    }
+    .sma-header-2{
+        font-size: 24px;
+    }
+    .sma-caption-2{
+        font-size: 14px;
+    }
+    .sma-caption-bawah-2{
+        font-size: 14px
+    }
+    .sma-2-image-position{
+        padding : 20px 15px 0px 15px;
+    }
+    .sma-2-image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+} 
+
+/* end Section 2 */
+
+
+/* Section 3 */
+.sma-3-li{
+    
+}
+
+
+.bg-sma-3{
+    margin-top: 100px;
+    padding : 0px 85px 0px 5px;
+}
+
+.sma-text-3{
+    padding-top : 5px;
+   
+}
+
+.sma-header-3{
+    font-family: "HelveticaBold";
+    font-size: 24px;
+    margin-bottom: 18px;
+    padding-left: 25px;
+    line-height: 30px;
+    color: #6d6d6d;
+}
+
+.sma-caption-3{
+    font-family: "HelveticaOr";
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 65px;
+
+    color: #6d6d6d;
+}
+
+.sma-3-image img{
+    width: 100%;
+  
+    
+    
+}
+
+
+.ul-edit ul{
+    list-style: none;
+}
+
+
+.ul-edit ul li::before{
+    content: "\2022";
+    color: #a0559d;
+    font-weight: bold;
+    font-size: 30px;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+@media (min-width: 991px) and (max-width: 1186px) {
+    .bg-sma-3{
+        margin-top:80px;
+       
+    }
+    .sma-text-3{
+        padding: 0px;
+        margin: 0;
+    }
+    .sma-header-3{
+        font-size: 30px;
+        padding: 0px;
+        margin: 0;
+
+    }
+    .sma-caption-3{
+        font-size: 20px;
+        padding: 0px;
+        margin: 0;
+
+    }
+    .sma-3-image img{
+        width: 100%;
+        height: 820px;
+        padding: 0px;
+        margin: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .bg-sma-3{
+        margin-top: 60px;
+        padding: 0px 30px 0px 30px;
+    }
+    .sma-text-3{
+        margin: 0;
+        padding: 0;
+
+    }
+    .sma-header-3{
+        font-size: 28px;
+
+    }
+    .sma-caption-3{
+        font-size: 18px;
+        padding-right: 10px;
+
+    }
+    .sma-3-image img{
+        width: 100%;
+    
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .bg-sma-3{
+        margin-top:50px;
+        padding: 0px 30px 0px 30px;
+    }
+    .sma-text-3{
+        margin: 0;
+        padding: 0;
+
+    }
+    .sma-header-3{
+        font-size: 20px;
+        padding-right: 10px;
+
+    }
+    .sma-caption-3{
+        font-size: 16px;
+        padding-right: 10px;
+
+    }
+    .sma-3-image img{
+        width: 100%;
+    
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .bg-sma-3{
+        margin-top: 40px;
+        padding: 0px 30px 0px 30px;
+    }
+    .sma-text-3{
+        margin: 0;
+        padding: 0;
+
+    }
+    .sma-header-3{
+        font-size: 18px;
+        padding-right: 10px;
+
+    }
+    .sma-caption-3{
+        font-size: 14px;
+        padding-right: 20px;
+
+    }
+    .sma-3-image img{
+        width: 100%;
+    
+    }
+} 
+/* end Section 3 */
+
+/* Section 4 */
+.bg-sma-4{
+    background-image: url("../../images/sma/GIF-cancer.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: auto;
+
+    margin-top : 60px;
+    padding :280px 0px;
+}
+
+@media (min-width: 991px) and (max-width: 1186px) {
+    .bg-sma-4{
+        margin-top : 80px;
+        padding : 240px 0px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .bg-sma-4{
+        margin-top:60px;
+        padding: 220px 0px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .bg-sma-4{
+        margin-top:40px;
+        padding: 130px 0px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .bg-sma-4{
+        margin-top: 20px;
+        padding: 80px 0px;
+    }
+} 
+/* end section 4 */
+
+/* Section 5 */
+.bg-sma-5{
+    background-image: url("../../images/sma/Image-bawah.png");
+    background-repeat : no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: auto;
+
+    margin-top: 60px;
+    padding : 140px 0px;
+}
+@media (min-width: 991px) and (max-width: 1186px) {
+    .bg-sma-5{
+        padding: 90px 0px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .bg-sma-5{
+        background-image:url("../../images/sma/mobile/BG-bawah-mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position : center;
+
+        width: 100%;
+        height: auto;
+        
+        padding : 70px 0px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .bg-sma-5{
+        background-image:url("../../images/sma/mobile/BG-bawah-mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position : center;
+
+        width: 100%;
+        height: auto;
+        
+        margin: 0;
+        padding : 60px 0px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .bg-sma-5{
+        background-image:url("../../images/sma/mobile/BG-bawah-mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position : center;
+
+        width: 100%;
+        height: auto;
+        
+        margin-top : 0px;
+        padding : 40px 0px;
+    }
+} 
+
+.sma-5-header{
+    font-family: "HelveticaBold";
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #6d6d6d;
+
+}
+
+.sma-5-caption ul{
+    list-style: none;
+    font-family: "HelveticaOr";
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 10;
+    color: #6d6d6d;
+
+}
+@media (min-width: 991px) and (max-width: 1186px) {
+    .sma-5-header{
+        font-size: 20px;
+
+    }
+    .sma-5-caption ul{
+        font-size : 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .sma-5-header{
+        font-size: 18px;
+    }
+    .sma-5-caption ul{
+        font-size: 18px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .sma-5-header{
+        font-size : 16px;
+    }
+    .sma-5-caption ul{
+        font-size : 16px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .sma-5-header{
+        font-size: 14px;
+    }
+    .sma-5-caption ul{
+        font-size : 14px;
+    }
+} 
+/* end Section 5 */
+
+
+/* Section 6 */
+.bg-sma-6{
+    background-image: url("../../images/sma/background-ungu-bawah.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: auto;
+
+    padding: 120px 0px;
+
+}
+@media (min-width: 991px) and (max-width: 1186px) {
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .bg-sma-6{
+        padding: 100px 0px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .bg-sma-6{
+        padding: 50px 0px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .bg-sma-6{
+        padding :40px 0px;
+        
+    }
+} 
+
+.sma-6-header{
+    font-family: "HelveticaOr";
+    font-size: 52px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+
+    padding : 10px;
+}
+
+.sma-6-header-miring{
+    font-family: "AARDC";
+}
+.sma-6-caption{
+    font-family: "HelveticaOr";
+    font-size: 18px;
+    letter-spacing : 1px;
+    line-height: 45px;
+    text-align: center;
+    color: white;
+    padding : 0px 120px;
+}
+
+.sma-6-button-posisi{
+    padding: 15px;
+}
+.sma-6-button{
+    border-radius: 100px;
+}
+.sma-6-alamat{
+    margin-top:-30px
+}
+
+@media (min-width: 991px) and (max-width: 1186px) {
+    .sma-6-header{
+        font-size: 47px;
+    }
+    .sma-6-caption{
+        font-size : 20px;
+        padding: 0px 100px;
+    }
+    ..sma-6-button-posisi a{
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .sma-6-header{
+        font-size: 42px;
+    }
+    .sma-6-caption{
+        font-size : 18px;
+        padding : 0px 80px;
+    }
+    .sma-6-button-posisi a{
+        font-size: 18px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .sma-6-header{
+        font-size: 38px;
+    }
+    .sma-6-caption{
+        font-size : 16px;
+        padding: 0px 60px;
+        line-height: 35px;
+    }
+    .sma-6-button-posisi a{
+        font-size: 16px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .sma-6-header{
+        font-size: 33px;
+    }
+    .sma-6-caption{
+        font-size : 14px;
+        padding: 0px 40px;
+        line-height: 30px;
+    }
+    .sma-6-button-posisi a{
+        font-size: 14px;
+    }
+} 
+/* end section 6 */
+
+
+
+
+
+
+
+
+
+@media (min-width: 991px) and (max-width: 1186px) {
+}
+@media (min-width: 768px) and (max-width: 990px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 

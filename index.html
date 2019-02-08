@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html class="no-js" ng-app="app" > <!--<![endif]-->
+<head>
+
+    <!-- Meta-Information -->
+ 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   
+    <base href="/angular-course/brca/">
+    <link rel="icon" type="image/png" href="assets/images/Logo-Cancervue-atas.png" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/new_custom.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/float.css">
+    <link rel="stylesheet" href="assets/css/hcs/header.css">
+    <link rel="stylesheet" href="assets/css/alamat_custom.css">
+    <link rel="stylesheet" href="assets/css/ganti-gambar.css">
+    <link rel="stylesheet" href="assets/css/blog.css">
+    <link rel="stylesheet" href="assets/css/tentang.css">
+    <link rel="stylesheet" href="assets/css/alamat_custom.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
+    <link rel="stylesheet" href="assets/css/alamat_custom.css">
+
+    <!-- HCS -->
+    <link rel="stylesheet" href="assets/css/hcs/header.css">
+    <link rel="stylesheet" href="assets/css/hcs/detail.css">
+
+    <!-- BRCA -->
+    <link rel="stylesheet" href="assets/css/brca/brca_style.css">
+
+    <!-- Percobaan -->
+    <link href="coba/dist/css/lightgallery.css" rel="stylesheet">
+
+    <!-- Contact -->
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" type="text/css" href="coba/slide-logo/slide.css">
+
+    <!-- SMA -->
+    <link rel="stylesheet" type="text/css" href="assets/css/sma/sma.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/sma/detail-sma.css">
+
+    <!-- BLOG -->
+    <link rel="stylesheet" href="assets/css/blog/blog.css">
+
+    <!-- video js -->
+    <link href="assets/js/video-js.css" rel="stylesheet">
+
+    
+
+</head>
+<body >
+
+
+
+
+<!-- Our Website Content Goes Here -->
+<div ng-include='"views/partials/header.html"'></div>
+
+
+<div ui-view></div>
+
+<div ng-include='"views/partials/footer.html"'></div>
+
+<div ng-include='"views/partials/popup.html"'></div>
+
+
+
+
+    <!-- Vendor: Javascripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Vendor: Angular, followed by our custom Javascripts -->
+    <script src="assets/angular/angular.min.js"></script>
+    <!-- <script src="assets/angular/angular-route.min.js"></script> -->
+    <script src="assets/angular/angular-ui-router.min.js"></script>
+
+
+    <!-- main script -->
+    <script src="app/app.js"></script>
+    <!-- controllers -->
+    <!-- <script src="js/controllers/homeController.js"></script> -->
+    <!-- <script src="js/controllers/addController.js"></script>
+    <script src="js/controllers/editController.js"></script>
+    <script src="js/controllers/deleteController.js"></script> -->
+    
+    <!-- Controller -->
+
+    <script src="app/controller/homeController.js"></script>
+    <script src="app/controller/hcsController.js"></script>
+    <script src="app/controller/brcaController.js"></script>
+    <script src="app/controller/contactController.js"></script>
+    <script src="app/controller/smaController.js"></script>
+    <script src="app/controller/blogController.js"></script>
+    <!-- services -->
+    <script src="app/services/memberService.js"></script>
+
+
+    <!-- Animation -->
+    <script src="app/jscustom/scrol.js"></script>
+
+    <script></script>
+    
+    <!-- Zoom Image -->
+    <script src="assets/js/lightgallery.min.js"></script>
+    <script src="assets/js/lg-thumbnail.min.js"></script> 
+    <script src="assets/js/lg-fullscreen.min.js"></script> 
+    <script src="app/jscustom/lightGalerry.js"></script>
+    <script src="assets/js/picturefill.min.js"></script>
+    
+    <script src="coba/dist/js/lightgallery-all.js"></script>
+    <script src="coba/lib/jquery.mousewheel.min.js"></script>
+    
+    
+    <script src="app/jscustom/scrol2.js"></script>
+    <script src="app/jscustom/tolltip.js"></script>
+
+
+
+    <!-- //contact -->
+    <script src="coba/slide-logo/slide.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+
+
+    <!-- video .js -->
+    <!-- <script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script> -->
+    <script src='assets/js/video.js'></script>
+
+       
+    </script>
+
+</body>
+</html>

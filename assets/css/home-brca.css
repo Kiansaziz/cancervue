@@ -1,0 +1,75 @@
+
+
+
+@font-face {
+        font-family: "Gotham Medium";
+        src: url('assets/bootstrap/fonts/GothamMedium.TTF');
+        }
+
+.word-header{
+  font-family: "Gotham Medium";
+  font-size: 37px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-top: 150px;
+  color: #6d6d6d;
+  z-index: 1;
+  -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+          transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+}
+
+/*
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .word-header{
+    font-family: "Gotham Medium";
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-top: 70px;
+    color: #6d6d6d;
+    z-index: 1;
+    -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+            transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+  }
+}
+/*
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .word-header{
+    font-family: "Gotham Medium";
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-top: 85px;
+    color: #6d6d6d;
+    width: 50%;
+
+    margin-left: 0px;
+    -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+            transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+  }
+}
+/*
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .word-header{
+    font-family: "Gotham Medium";
+    font-size: 23px;
+    z-index: 1;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-top: 80px;
+    color: #6d6d6d;
+    -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+            transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+  }
+}

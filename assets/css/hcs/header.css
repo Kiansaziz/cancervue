@@ -1,0 +1,927 @@
+@font-face {
+    font-family: "HelveticaOr";
+    src: url('../../bootstrap/fonts/helvetica/Helvetica.ttf');
+    }
+
+@font-face {
+        font-family: "HelveticaBold";
+        src: url('../../bootstrap/fonts/helvetica/Helvetica-Bold.ttf');
+        }
+
+
+/* Barisan 1 */
+.hcs{
+    background: url('../../images/hcs/image-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: auto;
+
+    padding: 260px 0px;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .hcs{
+        background: url('../../images/hcs/image-header.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+
+        padding: 260px 0px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+        .hcs{
+            background: url('../../images/hcs/image-header-768x1024.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+    
+            width: 100%;
+            height: auto;
+    
+            padding: 360px 0px;
+            padding-bottom: 700px;
+        }
+    
+    
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .hcs{
+        background: url('../../images/hcs/image-header-481x767.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+
+        padding: 250px 0px;
+        padding-bottom: 250px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .hcs{
+        background: url('../../images/hcs/image-header-320x480.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+
+        padding: 356px 10px;
+        padding-bottom: 201px;
+    }
+} 
+
+.word-header-hcs{
+    font-family: "HelveticaOr";
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 1px;
+   
+    text-align: right;
+    color: #6d6d6d;
+    z-index: 1;
+    -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+            transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+  }
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+   .word-header-hcs{
+      
+   }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .word-header-hcs{
+       text-align: center;
+       font-size: 26px;
+       padding: 0px 50px;
+        
+    
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .word-header-hcs{
+        margin-right: 25px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .word-header-hcs{
+        font-size: 24px;
+        margin-right: 15px;
+    }
+}
+
+.hcs-logo img  {
+    display: block;
+    margin-left:auto;
+    width: 70%;
+}
+
+ @media (min-width: 1025px) and (max-width: 1280px) {
+    .hcs-logo img{
+        width: 63%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+.hcs-logo img {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 40%;
+}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .hcs-logo{
+        padding: 0px 0px 0px 95px;
+        margin-top : -90px;
+        margin-left: 10px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .hcs-logo{
+        padding: 0px 0px 0px 0px;
+        margin-left: 10px; 
+        margin-top: -150px;
+        
+
+    }
+}
+
+/* Barisan 1 */
+
+
+/* Barisan ke 2 */
+
+
+.bg-hcs-2{
+    margin-top : 50px;
+    margin-bottom: -200px;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .bg-hcs-2{
+        margin-top : 50px;
+        
+    }
+    
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .bg-hcs-2{
+        margin-top : 50px;
+    margin-bottom: -320px;
+    }
+} 
+
+
+
+.header-hcs-2{
+
+    background-color: #4b8c21;
+    border-radius: 50px;
+   
+
+    padding : 5px 20px;
+
+    
+    font-size: 30px;
+    font-family: "HelveticaBold";
+    color: white;
+
+    display: inline-block;
+
+
+
+}
+
+
+
+
+.caption-hcs-2{
+    color:#6d6d6d;
+    font-family: "HelveticaOr";
+    margin-top: 0px;
+   
+    padding-top: 15px;
+    font-size: 18px;
+
+    line-height: 30px;
+    text-align: justify;
+    -webkit-transition: color 0.3s, background-color 0.5s, padding 0.9s, opacity: 5s;
+    transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+}
+
+.img-hcs-2{
+    background-image: url('../../images/hcs/cancer-HCS.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+
+    width: 100%;
+    height: auto;
+
+    margin-top:30px;
+    padding : 300px 0px;
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .header-hcs-2{
+        font-size : 25px;
+        padding-top : 10px;
+        margin:0px
+    }
+    .caption-hcs-2{
+        font-size: 18px;
+        margin:0px
+
+    }
+    .img-hcs-2{
+        margin-top: 50px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-hcs-2{
+        font-size : 20px;
+        margin:0px
+    }
+    .caption-hcs-2{
+        font-size: 15.5px;
+        padding-top : 32px;
+        margin:0px
+
+    }
+    .img-hcs-2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        width: 80%;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .header-hcs-2{
+        font-size : 25px;
+        margin-left: 10px;
+
+    }
+    .caption-hcs-2{
+        font-size: 20.5px;
+        padding : 20px;
+        margin:0px
+
+    }
+    .img-hcs-2{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .header-hcs-2{
+        font-size : 16px;
+        margin:0px;
+        margin-left: 10px;
+
+    }
+    .caption-hcs-2{
+        font-size: 14.55px;
+        padding : 10px;
+        padding-top : 15px;
+        padding-bottom: 0px;
+        margin:0px
+
+    }
+    .img-hcs-2{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+} 
+
+/* Barisan ke 2 */
+
+/* Barisan ke 3 */
+.hcs-3{
+    background-image: url('../../images/hcs/background-hereditary-cancer-screening.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    width: 100%;
+    height: auto;
+
+    padding: 60px 0px;
+    padding-top: 160px;
+   
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .hcs-3{
+        background: url('../../images/hcs/image-background-ijo-1025.png');   
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+        width: 100%;
+        height: auto;
+ 
+        }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hcs-3{
+        background: url('../../images/hcs/image-background-ijo-768.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+        width: 100%;
+        height: auto;
+
+
+        
+      }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .hcs-3{
+        background: url('../../images/hcs/image-background-ijo-481.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+        width: 100%;
+        height: auto;
+
+        padding : 50px 10px;
+        margin-top: 50px;
+        
+      }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .hcs-3{
+        background: url('../../images/hcs/image-background-ijo-320.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        
+        width: 100%;
+        height: auto;
+
+        padding : 50px 0px;
+        margin-top: 0px;
+      }
+} 
+
+
+
+.header-hcs-3{
+    color:white;
+    font-family: "HelveticaBold";
+    margin: 0px;
+   
+   
+    font-size: 30px;
+    -webkit-transition: color 0.3s, background-color 0.5s, padding 0.9s, opacity: 5s;
+    transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+}
+
+.caption-hcs-3{
+    color : white;
+    font-family: "HelveticaOr";
+    margin: auto;
+    padding: auto;
+    padding-top:20px;
+   
+    font-size: 18px;
+    font-weight: 10;
+    text-align: justify;
+    -webkit-transition : color 0.5s, background-color 0.5s, padding 0.9s, opacity 5s;
+    transition: color 0.3, background-color 0.5s;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .header-hcs-3{
+        font-size: 25px;
+        margin:0px;
+    }
+    .caption-hcs-3{
+        font-size: 16px;
+        width: 129%;
+        margin:0px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-hcs-3{
+        font-size: 21px;
+      
+    }
+    .caption-hcs-3{
+        font-size: 15px;
+        padding-top:10px;
+        padding-bottom: -5px;
+        width: 100%;
+        margin-left: 0px;
+        margin:0px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .header-hcs-3{
+        font-size: 24px;
+        padding : 10px;
+    }
+    .caption-hcs-3{
+        font-size: 17.5px;
+        padding: 10px;
+        padding-top:10px;
+        padding-bottom: -5px;
+        width: 100%;
+        margin-left: 0px;
+        margin:0px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .header-hcs-3{
+        font-size: 15px;
+        padding : 10px;
+        padding-top: 15px;
+        margin-bottom: -15px;
+        margin:0px;
+    }
+    .caption-hcs-3{
+        font-size: 13.5px;
+        padding: 10px;
+        padding-top:15px;
+        margin-bottom: -17px;  
+        
+        width: 100%;
+        margin-left: 0px;
+        margin:0px;
+    }
+   
+    
+} 
+
+
+.bungkus-pelajari{
+    padding-top: 20px;
+    margin: auto;
+    padding-left: auto;
+  
+    
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .bungkus-pelajari{
+        margin-left: 0px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .bungkus-pelajari{
+        margin-left: 0px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .bungkus-pelajari{
+        margin-left: 0px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .bungkus-pelajari{
+        margin-left: 0px;
+    }
+}
+
+
+.hcs-pelajari{
+    background-color: #ffd14e;
+    color: white !important;
+    border : 3px solid #ffd14e;
+    padding: 5px 25px;
+    border-radius: 100px;
+    margin-left: 10px;
+    font-family: "HelveticaOr";
+    font-size : 15px !important;
+    color: black !important;
+
+    /* animasi  */
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+}
+.hcs-pelajari:hover{
+    border : 3px solid #ffd14e;
+    background-color: #ffd14e;
+    box-shadow: 0px 15px 20px rgba(9, 10, 10, 0.4);
+    transform: translateY(-7px);
+    color: black !important;
+}
+
+a.hcs-pelajari .image-pelajari-2{display:none}
+a.hcs-pelajari:hover .image-pelajari-1 {display:none}
+a.hcs-pelajari:hover .image-pelajari-2 {display:inline}
+
+.button-hcs-3{
+    background: transparent;
+    border: 0px;
+    margin: auto;
+    
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+   .pa{
+       width: 60%;
+       margin-left: 5px;
+   }
+}
+
+
+/* Barisan ke 3 */
+
+/* Barisan ke 4 */
+
+.hcs-4{
+    background-image: url('../../images/hcs/background-siapa-yang-membutuhkan.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: auto;
+
+    padding : 100px 0px;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .hcs-4{
+        background-image: url('../../images/hcs/background-siapa-yang-membutuhkan.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        width: 100%;
+        height: auto;
+
+        padding : 100px 0px;
+            }
+    
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hcs-4{
+        background: url('../../images/hcs/image-background-bawah768x1024.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        width: 100%;
+        height: auto;
+
+        padding : 200px 0px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .hcs-4{
+        background: url('../../images/hcs/image-background-bawah481x767.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        width: 100%;
+        height: auto;
+
+        padding : 0px 10px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .hcs-4{
+        background: url('../../images/hcs/image-background-bawah320x480.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        width: 100%;
+        height: 500px;
+
+
+        padding : 0px 10px;
+    }
+} 
+
+
+
+
+.header-hcs-4{
+    font-family: "HelveticaBold";
+    font-size: 25px;
+    line-height: 35px;
+    color: #6d6d6d;
+    
+}
+
+
+.caption-hcs-4{
+    font-family : "HelveticaOr";
+    font-size: 18px;
+    text-align: justify;
+    line-height: 30px;
+    color: #6d6d6d;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .posisi-hcs-4{
+       
+
+        text-align: justify;
+        
+    }
+
+    .caption-hcs-4{
+        text-align: justify;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .posisi-hcs-4{
+        padding-top: 500px;
+        text-align: center;
+        
+    }
+
+    .caption-hcs-4{
+        text-align: center;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .posisi-hcs-4{
+        padding-top: 530px;
+        text-align: center;
+        
+    }
+
+
+    .caption-hcs-4{
+        text-align: justify;
+        padding: 10px;
+        font-size: 18px;
+        
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .posisi-hcs-4{
+        padding-top: 380px;
+        text-align: center;
+        
+    }
+
+    .header-hcs-4{
+        font-family: "HelveticaBold";
+        font-size: 18px;
+        
+    }
+
+    .caption-hcs-4{
+        text-align: justify;
+        font-size: 14px;
+        
+    }
+} 
+
+
+
+/* Barisan ke 4 */
+
+
+/* barisan 5 */
+ 
+hr.onepixcel-hcs {
+    border-top: 2px solid #4b8c21;
+    border-bottom: 2px solid #4b8c21;
+    height: 0px;
+    margin-bottom: 10px;
+    margin-top : 100px;
+       
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    hr.onepixcel-hcs {
+        margin-top: -15px;
+        margin-right: 60px;
+        margin-bottom: 30px;
+    }
+}
+  @media (min-width: 481px) and (max-width: 767px) {
+    hr.onepixcel-hcs {
+    margin-top: 140px;
+    margin-bottom: 25px;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 480px) {
+    hr.onepixcel-hcs {
+        margin-top: 20px;
+        margin-bottom: 19px;
+        }
+  }
+
+  .posisi-hcs-5{
+      margin-top: -20px;
+      
+  }
+
+  .position-hcs-5{
+      text-align: center;
+  }
+ 
+
+
+
+  .hasil-test{
+      background-color :#4b8c21 !important;
+      border-color: #4b8c21 !important;
+      color: white !important;
+      padding : 0px 20px;
+      padding-top: 8px;
+      margin:0;       
+    
+
+      border-radius: 100px;
+      
+      position: relative;
+      -webkit-transition-duration : 0.3s;
+      transition-duration: 0.3s; 
+  }
+  .hasil-test:hover{
+    color: white !important;
+    box-shadow: 0px 15px 20px rgba(9,10,10, 0.4);
+    transform: translateY(-7px);
+  }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hasil-test{
+        font-size : 16px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .hasil-test{
+        font-size: 15px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .hcs-5{
+        margin-top : 190px;
+    }
+    
+   
+    .hasil-test{
+        font-size : 14px;
+        padding : 0px 15px;
+        padding-top : 7px;
+        margin-top: 10px;
+    }
+} 
+
+ 
+
+.header-hcs-5{
+    font-family: "HelveticaBold";
+    color : #4b8c21;
+    text-align: center;
+    font-size : 49px;
+    
+
+}
+
+
+.caption-hcs-5{
+    font-family: "HelveticaBold";
+    color : #4b8c21;
+    text-align:center;
+    font-size: 28px;
+    padding : 0px 20px;
+}
+
+
+.caption-hcs-5-1{
+    font-family: "HelveticaOr";
+    color : #4b8c21;
+    text-align: center;
+    font-size: 18px;
+        
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-hcs-5{
+        font-size: 39px;
+        
+    }
+    
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .header-hcs-5{
+        font-size: 30px;
+    }
+    .caption-hcs-5{
+        font-size: 20px;
+    }
+    .caption-hcs-5-1{
+        font-size: 16px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .header-hcs-5{
+        font-size: 20px;
+        
+    }
+    .caption-hcs-5{
+        font-size: 17px;
+    }
+    .caption-hcs-5-1{
+        font-size: 15px;
+    }
+} 
+
+
+
+.hcs-5-pelajari{
+    
+}
+a.hcs-5-pelajari .image-hcs-5-pelajari-2{display:none}
+a.hcs-5-pelajari:hover .image-hcs-5-pelajari-1 {display:none}
+a.hcs-5-pelajari:hover .image-hcs-5-pelajari-2 {display:inline}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .ba{
+        width: 80%;
+        margin-left: 5px;
+    }
+ }
+/* barisan 5 */
+
+
+.position-video{
+    width: 50%;
+    height : auto;
+    
+    display : block;
+    margin-left:auto;
+    margin-right: auto;
+
+    margin-top: 100px;
+    margin-bottom: 40px;
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+       .position-video{
+           margin-top: -100px;
+           margin-bottom: 150px;
+       }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .position-video{
+        width: 80%;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .position-video{
+        width: 80%;
+        margin-top: 170px;
+        margin-bottom: -120px;
+    }
+    
+} 
+
+
+
+/* padding 1. Rata atas , 2.Rata Bawah , 3.Rata Kanan , 4.Rata Kiri */
+
+/* 
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 
+
+*/

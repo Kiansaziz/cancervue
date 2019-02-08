@@ -1,0 +1,152 @@
+<head>
+    <title >Layanan SMA | Cancervue</title>
+    <meta name="theme-color" content="#a0559d">
+  </head>
+     
+<!-- sma.css -->
+<!-- section 1 -->
+<section class="bg-sma">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+
+            </div>
+            <div class="col-md-6 position-sma" >
+                <img class="img-responsive sma-logo" ng-src="assets/images/sma/{{sma}}" />
+                <h1 ng-repeat="section in section1" class="sma-header">{{section.headerSection}}</h1>
+                <ul ng-repeat="caption in captionSection" class="sma-caption">
+                    <li>{{caption.caption}}</li>
+                </ul>
+               <!-- <a class="btn button-sma1 btn-lg">About SMA</a></button> -->
+            </div>       
+        </div>
+    </div>
+</section>
+<!--end section 1 -->
+
+<!-- Section 2 -->
+<section class="bg-sma-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12" ng-repeat="section in section2">
+                <h1 class="sma-header-2">{{section.headerSma2}}</h1>
+                <p class="sma-caption-2">{{section.captionSma2}}</p>
+                <p class="sma-caption-bawah-2">{{section.referensiSma2}}</p>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 sma-2-image-position">
+                <img class="img-responsive sma-2-image" ng-src="assets/images/sma/Population-image.png">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end section 2 -->
+
+<!-- Section 3 -->
+<section class="bg-sma-3">
+    <div class="container">
+            <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12 sma-3-image">
+                        <img class="img-responsive sma-3-image" src="assets/images/sma/Image-tengah.jpg">
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 sma-text-3 ul-edit" ng-repeat="section in section3">
+                        <ul>
+                                <h1 class="sma-header-3"><li>{{section.headerSma3}}</li></h1>
+                        </ul>
+                                <p class="sma-caption-3">{{section.captionSma3}}</p>
+                    </div>
+                </div>
+    
+    </div>
+        
+  
+</section>
+
+
+<!-- section 4 -->
+<section class="bg-sma-4">
+</section>
+<!-- end section 4 -->
+
+<!-- Section 5 -->
+<section class="bg-sma-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <ul>
+                    <li class="sma-5-header">Dalam Somatic Mutation Analysis, Anda juga akan mendapatkan informasi mengenai:</li>
+                    <li class="sma-5-header">Informasi obat dari:
+                        <div class="sma-5-caption">
+                            <ul >
+                                <li class="sma-5-caption">US - Food Drugs Administration (FDA)</li>
+                                <li class="sma-5-caption">US - National Comprehensive Cancer Netword (NCCN)</li>
+                                <li class="sma-5-caption">European Medicines Agency (EMA)</li>
+                                <li class="sma-5-caption">European Society of Medical Oncology (ESMA)</li>
+                            </ul>
+                        </div>
+                        
+                    </li>
+                    <li class="sma-5-header">Informasi mengenai percobaan klinis di seluruh dunia,
+                        berikut kontak dan tahap penelitiannya.
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6" >
+                
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end section 5 -->
+
+
+<!-- Section 6 -->
+<section class="bg-sma-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" ng-repeat="section in sectionDetail2">
+                <h1 class="sma-6-header">SMA <span class="sma-6-header-miring">Liquid</span></h1>
+                <p class="sma-6-caption" >
+                    {{section.captionDetail2}}
+                </p>
+                <p class="text-center sma-6-button-posisi" ><a class="btn button-sma1 btn-lg sma-6-button" ui-sref="layanan-detail-sma" onclick="topFunction()">Pelajari Lebih lanjut</a></button></p>
+                 
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end section 6 -->
+
+
+
+<!-- Alamat -->
+<section class="sma-6-alamat">    
+        <div class="col-md-6">
+            <div class="bg-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15865.202932826536!2d106.8231404!3d-6.2240204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7b36fd8bd2a9e428!2sPT.+Global+Genetika+Indonesia+(Genetics+Indonesia)!5e0!3m2!1sid!2sid!4v1544605888681" 
+                frameborder="0" style="border:0" class="bg-map-atur" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="bg-alamat">
+                <a><img ng-src="assets/images/{{cancervueBottom}}" class="alamat-image"></a>
+                <h1 class="alamat-heading">PT Global Genetika Indonesia</h1>
+                <p class="alamat-text">DBS Bank Tower Lt 11 <br>
+                    Jl Prof Dr Satrio Kav 3-5 <br>
+                    Jakarta Selatan 12940 <br>
+                    (021) 2988 8650 <br>
+                    WA 0812 8199 9388<br>
+                    Email <a href="" style="color: white">info@cancervue.co.id</a>
+                </p>
+                    <p>
+                    <a class="pic" href="{{fb}}">
+                        <img class="image-1 fb" ng-src="assets/images/{{fbWhite}}"/>
+                        <img class="image-2 fb" ng-src="assets/images/{{fbColor}}"  />
+                    </a>
+                    <a class="pic" href="{{ig}}">
+                        <img class="image-1 ig" ng-src="assets/images/{{igWhite}}"/>
+                        <img class="image-2 ig" ng-src="assets/images/{{igColor}}"  />
+                    </a>
+                </p>
+            </div>
+        </div>
+</section>

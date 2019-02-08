@@ -1,0 +1,58 @@
+<!--
+
+Author:    Ehtesham Mehmood
+Website:   PHPCodify.com
+All rights reserved 
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    
+</head>
+<body>
+    <div ng-app="employeeApp" 
+        ng-controller="employeeController">
+ 
+        <table class="table table-striped">
+            <tr>
+                <th>ID</th>
+                    <th>Employee Name</th>
+                        <th>Profession</th>
+            </tr>
+ 
+            <tr ng-repeat="employees in list">
+                <td>{{employees.ID}}</td>
+                    <td>{{employees.Name}}</td>
+                        <td>{{employees.Profession}}</td>
+            </tr>
+        </table>
+    </div>
+<script>
+    var app = angular.module('employeeApp', []);
+    app.controller('employeeController',
+        function ($scope, $http) {
+ 
+            var request = {
+                method: 'get',
+                url: 'data.json',
+                dataType: 'json',
+                contentType: "application/json"
+            };
+ 
+            $scope.arrEmployee = new Array;
+ 
+            $http(request)
+                .success(function (jsonData) {
+                    $scope.arrEmployee = jsonData;
+                    $scope.list = $scope.arrEmployee;
+                })
+                .error(function () {
+ 
+                });
+        });
+</script>
+</body>

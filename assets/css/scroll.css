@@ -1,0 +1,31 @@
+
+.navbar-default{
+height: 100px;
+background-color: transparent;
+position: fixed;
+top:200;
+width: 100%;
+transition:ease all 1s;
+-webkit-transition:ease all 1s;
+-moz-transition:ease all 1s;
+-o-transition:ease all 1s;
+}
+
+.darkHeader {
+  background-color:white;
+  height: 90px;
+}
+
+.wrapper {
+height:100px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) { 
+    .darkHeader {
+      background-color:white;
+      height: 135px;
+    }
+    
+}
+
+ 

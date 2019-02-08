@@ -1,0 +1,1175 @@
+/* font */
+
+
+    @font-face {
+        font-family: "HelveticaOr";
+        src: url('../../bootstrap/fonts/helvetica/Helvetica.ttf');
+        }
+    
+    @font-face {
+            font-family: "HelveticaBold";
+            src: url('../../bootstrap/fonts/helvetica/Helvetica-Bold.ttf');
+            }
+
+/* Barisan 1 */
+.brca-1{
+    background-image: url('../../images/brca/Header-Image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+    padding: 210px 15px 230px 15px;
+    /* padding : atas kanan bawah kiri   */
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .brca-1{
+        background-image : url("../../images/brca/Header-1025px-\(tab\).png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        width: 100%;
+        height: auto;
+
+        margin-top: -155px;
+        padding : 310px 15px 500px 15px;
+        /* padding atas kanan bawah kiri */
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-1{
+        background-image: url("../../images/brca/mobile/Header-BRCA-1.jpg");
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        
+        width: 100%;
+        height: auto;
+
+        margin : 0px;
+        padding : 180px 15px 180px 15px;
+        /* padding atas kanan bawah kiri; */
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-1{
+        background-image:url("../../images/brca/mobile/Header-BRCA-1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        width: 100%;
+        height: auto;
+
+        margin : 0px;
+        padding : 177px 15px 185px 15px;
+    }
+} 
+
+.brca-logo-1{
+    display: block;
+    margin-left:auto;
+    margin-bottom : 10px;
+}
+
+
+
+.brca-1-caption{
+    font-family: "HelveticaOr";
+    text-align: right;
+    font-size : 27px;
+    font-weight: 599;
+    letter-spacing: 1px;
+    color: #c71c78;
+}
+.onepixcel-brca{
+    border-top: 2px solid #ef6291;
+    border-bottom: 2px solid #ef6291;
+    height: 0px;
+    margin-bottom: 0px;
+    margin-top : 90px;
+    z-index: -1;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .brca-logo-1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        width: 25%;
+
+        margin-bottom: 10px;
+    }
+
+    .brca-1-caption{
+        text-align: center;
+        font-size: 24px;
+
+        padding : 10px 150px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-logo-1{
+        width: 60%;
+    }
+    .brca-1-caption{
+        font-size : 23px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-logo-1{
+        width: 60%;
+    }
+    .brca-1-caption{
+        font-size: 18px;
+    }
+} 
+
+/* barisan 2 */
+
+.brca-2{
+    text-align: center;
+    margin-top: -25px;
+}
+
+.brca-2-tabel{
+    margin-top: -350px !important;
+}
+
+.brca-2-tabel img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.brca-2-button-left{
+    background-color: #dcdcdc;
+    font-family : "HelveticaBold";
+    color: white;
+    border : 0px;
+    border-radius: 100px; 
+    padding : 10px 55px;
+    width: auto;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+    font-size : 25px;
+}
+
+.brca-2-button-left:hover{
+    border : 3px solid #ef6291;
+    background-color: #ef6291;
+    box-shadow: 0px 15px 20px rgba(9, 10, 10, 0.4);
+    transform: translateY(-10px);
+    color: white !important;
+    margin-bottom: -7px;
+    width: auto;
+    
+  
+
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    .brca-2-tabel{
+        margin-top: -300px;
+        padding-left: 70px;
+    }
+    .brca-2-tabel img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .brca-2-button-left{
+        font-size: 18px;
+    }
+   
+    .brca-2-tabel{
+        margin: 0px !important;
+        padding-left: 65px;
+    }
+    .brca-2-tabel img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-2-button-left{
+        font-size : 16px;
+        padding : 10px 25px;
+    }
+    .brca-2-tabel{
+        margin: 0px !important;
+        padding-left: 65px;
+    }
+    .brca-2-tabel img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+        margin-top : 30px;
+    }
+}
+@media (min-width: 410px) and (max-width: 480px) {
+    .brca-2-button-left{
+        font-size : 15px;
+        padding: 10px 10px;
+        margin-top : -10px;
+    }
+    .left-brca-button{
+        padding : 25px 25px;
+        margin-top : -15px;
+    }
+    .brca-2-tabel{
+        margin: 0px !important;
+        padding-left: 65px;
+    }
+    .brca-2-tabel img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+        margin-top : 30px;
+    }
+} 
+@media (min-width :320px) and (max-width: 409px){
+   .brca-2-button-left{
+        font-size : 15px;
+        padding: 10px 10px;
+        margin-top : -10px;
+    }
+    .left-brca-button{
+        padding : 20px 10px;
+        margin-top : -10px;
+    }
+    .brca-2-tabel{
+        margin: 0px !important;
+        padding-left: 65px;
+    }
+    .brca-2-tabel img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+        margin-top : 30px;
+    }
+
+}
+
+.brca-2-left{
+    margin-top: -35px;
+}
+
+
+.brca-2-left-bg{
+    background-image: url("../../images/brca/Background-image-atas.png");
+    background-repeat : no-repeat;
+    background-position : center;
+    background-size : cover;
+
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    
+
+
+    margin-top: -30px;
+    padding :250px 15px 250px 15px;
+    /* padding : atas kanan bawah kiri */
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .brca-2-left-bg{
+        padding: 240px 15px 240px 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .brca-2-left-bg{
+        display: none;
+    }
+
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-2-left-bg{
+        display: none;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-2-left-bg{
+        display: none;
+    }
+} 
+
+.brca-2-tabel{
+   margin-top: -430px;
+   padding-left: 65px;
+}
+
+.brca-2-left-header{
+    font-family: "HelveticaBold";
+    font-size : 30px;
+    color: #6d6d6d
+    
+}
+
+.brca-2-left-caption{
+    font-family: "HelveticaOr";
+    font-size : 18px;
+    text-align: justify;
+    color: #6d6d6d
+}
+
+@media (min-width: 992px) and (max-width: 1280px) {
+    .brca-2-tabel{
+        margin-top: -280px;
+    }
+    .brca-2-left-header{
+        font-size : 28px;
+    }
+    .brca-2-left-caption{
+        font-size : 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .brca-2-lef-bg-mobile{
+        background-image: url("../../images/brca/mobile/Background-tabel.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+
+        margin-top : -25px;
+        padding : 40px 15px 15px 40px;
+
+    }
+    .brca-2-tabel{
+        margin-top: 45px;
+        padding-right: 0px;
+
+        width: 359px;
+
+        position: relative;
+    }
+    .brca-2-left-header{
+        margin-top: 50px;
+        font-size : 26px;
+    }
+    .brca-2-left-caption{
+        font-size : 18.2px;
+    }
+    
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-2-lef-bg-mobile{
+        background-image: url("../../images/brca/mobile/Background-bawah.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+
+        width: 100%;
+        height: auto;
+
+        margin-top: -20px;
+        padding : 30px 10px;
+    }
+    .brca-2-tabel{
+        margin:0px;
+        margin-top : 30px;
+        padding: 0px;
+     
+
+    }
+
+    .brca-2-tabel img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        padding: 0px;
+        
+    }
+
+    .brca-2-left-header{
+        font-size :18px;
+        margin-top: 20px;
+        padding : 0px 30px;
+    }
+    .brca-2-left-caption{
+        font-size : 18px;
+        padding : 10px 20px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-2-lef-bg-mobile{
+        background-image: url("../../images/brca/mobile/Background-bawah.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+
+        width: 100%;
+        height: auto;
+
+        margin-top: -30px;
+        padding : 30px 10px;
+    }
+    .brca-2-tabel{
+        margin:0px;
+        margin-top : 30px;
+        padding: 0px;
+        width: 10%:
+
+    }
+
+    .brca-2-tabel img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        width: 100%;
+        padding : 0px 30px;
+        
+    }
+
+    .brca-2-left-header{
+        margin-top: 20px;
+        padding : 0px 30px;
+
+        font-size : 15px;
+    }
+    .brca-2-left-caption{
+        font-size : 13.5px;
+
+        padding : 10px 20px;
+    }
+    
+} 
+
+/* barisan 3 */
+
+.brca-3-left-bg{
+    background-image : url("../../images/brca/image-mutasi.png");
+    background-repeat: no-repeat;
+    background-size : cover;
+    background-position : center;
+
+    width: 100%;
+    height: auto;
+
+    margin-top: 80px;
+    padding : 240px 15px 240px 15px ;
+      /* padding : atas kanan bawah kiri */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .brca-3-left-bg{
+        padding : 150px 15px 150px 15px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-3-left-bg{
+        background-image: url("../../images/brca/mobile/BRCA-cancer-illustration-2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+        
+        padding : 50px 15px 470px 15px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-3-left-bg{
+        background-image: url("../../images/brca/mobile/BRCA-cancer-illustration-2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+
+        padding: 35px 15px 350px 15px;
+    }
+} 
+
+.brca-3-caption-left{
+    font-family: "HelveticaOr";
+    font-size : 18px;
+    text-align: center;
+    color: white;
+}
+
+.brca-b{
+    font-size:25px;
+    font-weight: 1900;
+}
+.brca-b-gede{
+    font-size: 26px;
+    font-weight: 900;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+        .brca-3-caption-left{
+            font-size : 18px;
+        }
+        .brca-b{
+            font-size : 18px;
+        }
+        .brca-b-gede{
+            font-size : 18px;
+        }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-3-caption-left{
+        font-size : 18px;
+    }
+    .brca-b{
+        font-size : 18px;
+    }
+    .brca-b-gede{
+        font-size : 18px;
+    }
+
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-3-caption-left{
+        font-size: 13.8px;
+    }
+    .brca-b{
+        font-size : 17px;
+    }
+    .brca-b-gede{
+        font-size : 17px;
+    }
+
+} 
+
+
+/* Barisan 4 */
+
+.brca-4-left-bg{
+    background-image: url("../../images/brca/image-background-siapa-saja-yang-membutuhkan-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: auto;
+
+    margin-top : 80px;
+    padding : 105px 15px 65px 0px;
+
+}
+
+@media (min-width: 1025px) and (max-width: 1186px) {
+    .brca-4-left-bg{
+        padding : 15px 15px 25px 0px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .brca-4-left-bg{
+        padding : 15px 5px 25px 0px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-4-left-bg{
+        background-image : url('../../images/brca/mobile/Background-bawah-new.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+
+
+        margin-top : -50px;
+        padding : 100px 25px 30px 25px ;
+
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-4-left-bg{
+        background-image : url('../../images/brca/mobile/Background-bawah-new.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+
+
+        margin-top : -50px;
+        padding : 100px 25px 30px 25px ;
+
+    }
+} 
+
+.brca-4-left-position-text{
+    padding-left : 80px;
+}
+
+.brca-4-left-header{
+    font-family: "HelveticaBold";
+    font-size : 18px;
+    color: white;
+
+    background-color : #ef6291;
+    border-radius : 30px;
+    
+    margin-top: 40px;
+    margin-bottom: 25px;
+    padding : 10px 25px;
+
+}
+
+.brca-4-left-caption{
+    font-family: "HelveticaOr";
+    font-size : 18px;
+    padding-left : 25px;
+    padding-right : 0px;
+}
+
+@media (min-width: 991px) and (max-width: 1186px) {
+    .brca-4-left-position-text{
+
+    }
+    .brca-4-left-header{
+        font-size : 18px;
+
+    }
+    .brca-4-left-caption{
+        font-size : 18px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .brca-4-left-position-text{
+        padding-right : 0px;
+       
+    }
+    .brca-4-left-header{
+        font-size : 17px;
+        padding-right : 10px;
+       
+
+    }
+    .brca-4-left-caption{
+        font-size : 17px;
+       
+        
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-4-left-position-text{
+        padding : 0;
+
+    }
+    .brca-4-left-header{
+        font-size: 18px;
+
+    }
+    .brca-4-left-caption{
+        font-size : 18px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-4-left-position-text{
+        padding : 0;
+
+    }
+    .brca-4-left-header{
+        font-size : 14px;
+    }
+    .brca-4-left-caption{
+        font-size : 14px;
+    }
+} 
+
+
+/* Barisan 5 */
+.brca-5-header{
+    font-family: "HelveticaBold";
+    font-size : 32px;
+    text-align: center;
+    color: #ef6291;
+
+    
+    margin-top : 80px ;
+   
+    
+}
+
+.brca-5-left-bg{
+    background-image : url("../../images/brca/Image-bagaimana-cara.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: auto;
+
+    margin-bottom: 80px;
+    padding : 25px 15px 55px 15px;
+    /* padding : atas kanan bawah kiri */
+}
+
+@media (min-width: 991px) and (max-width: 1280px) {
+    .brca-5-header{
+
+    }
+    .brca-5-left-bg{
+
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .brca-5-header{
+        font-size : 26px;
+
+    }
+    .brca-5-left-bg{
+        padding : 25px 25px 25px 25px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-5-header{
+        font-size :26px;
+    }
+    .brca-5-left-bg{
+        background-image: url('../../images/brca/mobile/Bagaimana-Cara-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+
+        padding : 25px 25px 25px 25px;
+        
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-5-header{
+        font-size: 18px;
+        padding : 0px 10px;
+    }
+    .brca-5-left-bg{
+        background-image: url('../../images/brca/mobile/Bagaimana-Cara-mobile-kecil.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+
+        padding : 10px 15px 0px 15px;
+    }
+} 
+
+.brca-5-caption-one{
+    font-family: "HelveticaOr";
+    font-size : 18px;
+    color : #ef6291;
+    text-align : justify;
+    margin-bottom : 20px;
+}
+
+.brca-5-caption-two{
+    font-family:  "HelveticaOr";
+    font-size :18px;
+    color : white;
+    text-align : justify;
+    padding-top:45px;
+}
+@media (min-width: 991px) and (max-width: 1280px) {
+    .brca-5-caption-one{
+
+    }
+    .brca-5-caption-two{
+
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .brca-5-caption-one{
+        font-size : 18px;
+
+    }
+    .brca-5-caption-two{
+        font-size : 18px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-5-caption-one{
+        padding-bottom: 180px;
+        padding-top:10px;
+        font-size: 18px;
+        text-align: center;
+
+    }
+    .brca-5-caption-two{
+        padding-bottom :50px;
+        font-size : 18px;
+
+        text-align: center;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-5-caption-one{
+        padding : 15px 0px;
+        margin:0;
+        
+        font-size: 14px;
+
+        text-align: center;
+
+    }
+    .brca-5-caption-two{
+        padding : 0;
+        padding-top : 140px;
+        padding-bottom : 50px;
+        margin: 0;
+        font-size: 14px;
+
+        text-align: center;
+    }
+} 
+
+/* Barisan 6 */
+
+.brca-6-logo img{
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.brca-6-caption{
+    font-family: "HelveticaOr";
+    font-size : 18px;
+    text-align: center;
+    color: #6d6d6d;
+
+    padding : 40px 150px;
+}
+
+.onepixcel-brca-6{
+    border-top : 2px solid #ef6291;
+    border-bottom : 2px solid #ef6291;
+    margin: 0px 450px;
+
+    position: relative;
+
+}
+
+@media (min-width: 991px) and (max-width: 1186px) {
+    .brca-6-logo img{
+
+    }
+    .brca-6-caption{
+
+    }
+    .onepixcel-brca-6{
+
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .brca-6-logo img{
+        width: 30%;
+    }
+    .brca-6-caption{
+        font-size : 18px;
+        padding: 30px 60px;
+
+    }
+    .onepixcel-brca-6{
+        margin : 0px 250px;
+
+        position: relative;
+        
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-6-logo img{
+        width: 35%;
+    }
+    .brca-6-caption{
+        font-size : 16px;
+        padding : 20px 25px;
+
+    }
+    .onepixcel-brca-6{
+        margin : 0px 200px;
+        position: relative;
+        
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-6-logo img{
+        width: 35%;
+    }
+    .brca-6-caption{
+        font-size: 14px;
+        padding : 20px 25px;
+
+    }
+    .onepixcel-brca-6{
+        margin: 0px 100px;
+        position: relative;
+        
+    }
+} 
+
+
+/* BRCA right */
+
+/* Barisan 2 */
+.brca-2-position{
+    margin-bottom: 40px;
+}
+
+.brca-2-right-header{
+    font-family: "HelveticaBold";
+    font-size : 30px;
+    color: #ef6291;
+    text-align: justify;
+    padding-right : 10px;
+   
+
+    margin-top: 100px;
+    
+}
+
+.brca-2-right-caption{
+    font-family: "HelveticaOr";
+    font-size : 18px;
+    text-align: justify;
+    padding-right : 10px;
+    color: #6d6d6d;
+}
+
+@media (min-width: 991px) and (max-width: 1186px) {
+    .brca-2-right-header{
+        font-size : 28px;
+        margin-top: 60px;
+    }
+    .brca-2-right-caption{
+        font-size :18px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .brca-2-right-header{
+        font-size : 24px;
+        margin-top : 50px;
+    }
+    .brca-2-right-caption{
+        font-size : 18px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-2-right-header{
+        font-size : 18px;
+        margin: 0;
+        margin-top: 40px;
+        padding : 10px 25px;
+    }
+    .brca-2-right-caption{
+        font-size : 18px;
+        padding : 10px 25px;
+    }
+    .
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-2-right-header{
+        font-size :16px ;
+        margin: 0;
+        margin-top: 30px;
+        padding : 0px 15px;
+    }
+    .brca-2-right-caption{
+        font-size : 14px;
+        margin-bottom: -20px;
+        padding : 10px 15px;
+    }
+} 
+
+
+
+/* Barisan 3 */
+.brca-3-right-header{
+    background-color : #ef6291;
+    font-family: "HelveticaBold";
+    color: white;
+    font-size: 18px;
+
+    border: 0 ;
+    border-radius : 100px;
+
+    margin-right: 0px;
+    padding : 6px 25px;
+
+    display: inline-block;
+
+    
+}
+
+.brca-3-right-caption{
+    font-family: "HelveticaOr";
+    font-size : 18px;
+    text-align: justify;
+    color: #6d6d6d;
+}
+
+@media (min-width: 991px) and (max-width: 1186px) {
+    .brca-3-right-header{
+        font-size: 18px;
+    }
+    .brca-3-right-caption{
+        font-size:18px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .brca-3-right-header{
+        font-size: 18px;
+    }
+    .brca-3-right-caption{
+        font-size: 18px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-3-right-header{
+        font-size:18px;
+    }
+    .brca-3-right-caption{
+        font-size : 18px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-3-right-header{
+        font-size : 14px;
+        
+    }
+    .brca-3-right-caption{
+        font-size : 14px;
+       
+    }
+} 
+
+
+
+
+
+.brca-3-right-icon img{
+    
+    margin : 80px 0px;
+
+    position: relative;
+
+}
+
+.brca-3-right-icon-2 img{
+    margin : 50px 0px;
+
+    position: relative;
+}
+
+.brca-3-right-icon-3 img{
+    margin : 50px 0px;
+
+    position: relative;
+}
+
+.icon-3{
+    margin-left: -18px;
+    margin-right: -16px;  
+
+    position: relative;
+}
+
+.brca-3-right-icon-4{
+    margin: 50px 0px;
+
+    position: relative;
+}
+
+.icon-4{
+    margin-left: -23px;
+    margin-right : -10px;
+    position: relative;
+}
+
+.icon-6{
+    margin-left : -25px;
+    margin-right : 0px;
+}
+
+.brca-9-right-bg{
+    background-image : url("../../images/brca/right/Image-background-bawah.png");
+    background-size : cover;
+    background-position : center;
+    background-repeat: no-repeat;
+
+    margin-bottom: -95px;
+    padding: 320px 15px 320px 15px;
+}
+
+@media (min-width: 991px) and (max-width: 1186px) {
+    .brca-9-right-bg{
+        padding : 300px 15px 300px 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .brca-9-right-bg{
+        padding : 230px 15px 230px 15px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-9-right-bg{
+        padding : 180px 15px 180px 15px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-9-right-bg{
+        padding: 140px 15px 140px 15px;
+    }
+} 
+
+.barisan-6{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 991px) and (max-width: 1186px) {
+}
+@media (min-width: 768px) and (max-width: 990px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 
